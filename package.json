@@ -1,0 +1,44 @@
+{
+  "name": "bridge-gap",
+  "version": "1.0.0",
+  "description": "IDS Hackathon project",
+  "keywords": [
+    "designsystem",
+    "ai"
+  ],
+  "homepage": "https://github.com/renatewr/bridge-gap#readme",
+  "bugs": {
+    "url": "https://github.com/renatewr/bridge-gap/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renatewr/bridge-gap.git"
+  },
+  "license": "ISC",
+  "author": "Renate Winther Ravnaas",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "test",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vite": "^7.2.4",
+    "storybook": "^10.2.7",
+    "@storybook/web-components-vite": "^10.2.7",
+    "@chromatic-com/storybook": "^5.0.0",
+    "@storybook/addon-vitest": "^10.2.7",
+    "@storybook/addon-a11y": "^10.2.7",
+    "@storybook/addon-docs": "^10.2.7",
+    "lit": "^3.3.2",
+    "vitest": "^4.0.18",
+    "playwright": "^1.58.2",
+    "@vitest/browser-playwright": "^4.0.18",
+    "@vitest/coverage-v8": "^4.0.18"
+  }
+}
