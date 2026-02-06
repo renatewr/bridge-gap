@@ -1,6 +1,11 @@
 # bridge-gap
 Repository for IDS hackathon project
 
+- node
+- storybook
+- vite
+- web components
+
 
 ### Getting started
 
