@@ -7,6 +7,7 @@ Repository for IDS hackathon project
 Clone repo
 
 `npm install`
+
 `npm run storybook`
 
 Playwright browser binaries are necessary for @storybook/addon-vitest. The
