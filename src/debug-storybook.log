@@ -1,0 +1,12 @@
+[00:08:23.611] [INFO] [36mInitializing Storybook[39m
+[00:08:24.192] [DEBUG] Getting package.json info for /Users/renatewr/dev/bridge-gap/package.json...
+[00:08:24.192] [DEBUG] Getting CLI versions from NPM for storybook...
+[00:08:24.192] [DEBUG] Executing command: npm info storybook version
+[00:08:24.627] [INFO] Adding Storybook version 10.2.7 to your project
+[00:08:24.628] [ERROR] Unable to initialize Storybook in this directory.
+
+Storybook couldn't detect a supported framework or configuration for your project. Make sure you're inside a framework project (e.g., React, Vue, Svelte, Angular, Next.js) and that its dependencies are installed.
+
+Tips:
+- Run init in an empty directory or create a new framework app first.
+- If this directory contains unrelated files, try a new directory for Storybook.
