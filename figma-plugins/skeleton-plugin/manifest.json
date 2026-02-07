@@ -1,10 +1,10 @@
 {
-  "name": "Skeleton Plugin",
-  "id": "skeleton-plugin",
-  "api": "1.0.0",
-  "main": "code.js",
-  "capabilities": [],
-  "enableProposedApi": false,
-  "editorType": ["figma"],
-  "ui": "ui.html"
+	"name": "Skeleton Plugin",
+	"id": "skeleton-plugin",
+	"api": "1.0.0",
+	"main": "code.js",
+	"capabilities": [],
+	"enableProposedApi": false,
+	"editorType": ["figma"],
+	"ui": "ui.html"
 }
