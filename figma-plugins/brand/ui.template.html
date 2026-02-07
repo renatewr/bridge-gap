@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Inter, system-ui, -apple-system, sans-serif;
+      font-size: 12px;
+      padding: 16px;
+      background: #ffffff;
+    }
+
+    h2 {
+      margin-bottom: 8px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    p {
+      color: #666;
+      margin-bottom: 16px;
+      line-height: 1.4;
+    }
+
+    .search-container {
+      margin-bottom: 12px;
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 8px 12px;
+      border: 1px solid #e0e0e0;
+      border-radius: 6px;
+      font-size: 12px;
+    }
+
+    .search-input:focus {
+      outline: none;
+      border-color: #18a0fb;
+    }
+
+    .brand-list {
+      max-height: 280px;
+      overflow-y: auto;
+      border: 1px solid #e0e0e0;
+      border-radius: 6px;
+      margin-bottom: 16px;
+    }
+
+    .brand-item {
+      padding: 10px 12px;
+      cursor: pointer;
+      border-bottom: 1px solid #f0f0f0;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .brand-item:last-child {
+      border-bottom: none;
+    }
+
+    .brand-item:hover {
+      background: #f5f5f5;
+    }
+
+    .brand-item.selected {
+      background: #e3f2fd;
+    }
+
+    .brand-preview {
+      display: flex;
+      gap: 2px;
+    }
+
+    .brand-preview-swatch {
+      width: 16px;
+      height: 16px;
+      border-radius: 2px;
+    }
+
+    .brand-name {
+      flex: 1;
+      font-size: 12px;
+    }
+
+    .brand-count {
+      color: #999;
+      font-size: 11px;
+    }
+
+    .button-group {
+      display: flex;
+      gap: 8px;
+      justify-content: flex-end;
+    }
+
+    button {
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 500;
+      cursor: pointer;
+      border: none;
+    }
+
+    button:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .primary {
+      background: #18a0fb;
+      color: white;
+    }
+
+    .primary:hover:not(:disabled) {
+      background: #0d8de3;
+    }
+
+    .secondary {
+      background: #f0f0f0;
+      color: #333;
+    }
+
+    .secondary:hover {
+      background: #e5e5e5;
+    }
+
+    .loading {
+      text-align: center;
+      padding: 40px;
+      color: #666;
+    }
+
+    .error {
+      color: #d32f2f;
+      padding: 12px;
+      background: #ffebee;
+      border-radius: 6px;
+      margin-bottom: 16px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Brand Palette Documentation</h2>
+  <p>Select a brand to generate visual documentation in your Figma file.</p>
+
+  <div id="loading" class="loading">Loading brands...</div>
+  <div id="error" class="error" style="display: none;"></div>
+
+  <div id="content" style="display: none;">
+    <div class="search-container">
+      <input type="text" id="search" class="search-input" placeholder="Search brands...">
+    </div>
+
+    <div class="brand-list" id="brand-list"></div>
+
+    <p class="brand-count" id="brand-count"></p>
+
+    <div class="button-group">
+      <button class="secondary" id="cancel">Cancel</button>
+      <button class="secondary" id="generate-all">Generate All</button>
+      <button class="primary" id="generate" disabled>Generate Selected</button>
+    </div>
+  </div>
+
+  <script>
+    // Embed brands data - this will be replaced during build
+    const BRANDS_DATA = __BRANDS_JSON__;
+
+    let selectedBrand = null;
+    let filteredBrands = [];
+
+    function init() {
+      const loadingEl = document.getElementById('loading');
+      const contentEl = document.getElementById('content');
+      const errorEl = document.getElementById('error');
+
+      try {
+        if (!BRANDS_DATA || Object.keys(BRANDS_DATA).length === 0) {
+          throw new Error('No brands data found');
+        }
+
+        loadingEl.style.display = 'none';
+        contentEl.style.display = 'block';
+
+        filteredBrands = Object.keys(BRANDS_DATA).sort();
+        renderBrandList();
+        updateCount();
+      } catch (err) {
+        loadingEl.style.display = 'none';
+        errorEl.textContent = 'Failed to load brands: ' + err.message;
+        errorEl.style.display = 'block';
+      }
+    }
+
+    function renderBrandList() {
+      const listEl = document.getElementById('brand-list');
+      listEl.innerHTML = '';
+
+      filteredBrands.forEach(brandName => {
+        const tokens = BRANDS_DATA[brandName];
+        const item = document.createElement('div');
+        item.className = 'brand-item' + (selectedBrand === brandName ? ' selected' : '');
+
+        // Create color preview
+        const previewColors = ['500', '300', '700'].map(step => {
+          const token = tokens['primary-' + step];
+          return token ? token.$value : '#ccc';
+        });
+
+        item.innerHTML = `
+          <div class="brand-preview">
+            ${previewColors.map(color => `<div class="brand-preview-swatch" style="background: ${color}"></div>`).join('')}
+          </div>
+          <span class="brand-name">${brandName}</span>
+        `;
+
+        item.onclick = () => selectBrand(brandName);
+        listEl.appendChild(item);
+      });
+    }
+
+    function selectBrand(brandName) {
+      selectedBrand = brandName;
+      document.getElementById('generate').disabled = false;
+      renderBrandList();
+    }
+
+    function updateCount() {
+      const total = Object.keys(BRANDS_DATA).length;
+      const shown = filteredBrands.length;
+      const countEl = document.getElementById('brand-count');
+      countEl.textContent = shown === total
+        ? `${total} brands available`
+        : `Showing ${shown} of ${total} brands`;
+    }
+
+    // Search functionality
+    document.getElementById('search').addEventListener('input', (e) => {
+      const query = e.target.value.toLowerCase();
+      const allBrands = Object.keys(BRANDS_DATA).sort();
+
+      if (query) {
+        filteredBrands = allBrands.filter(name => name.toLowerCase().includes(query));
+      } else {
+        filteredBrands = allBrands;
+      }
+
+      renderBrandList();
+      updateCount();
+    });
+
+    // Generate button
+    document.getElementById('generate').onclick = () => {
+      if (selectedBrand && BRANDS_DATA[selectedBrand]) {
+        parent.postMessage({
+          pluginMessage: {
+            type: 'generate',
+            brandName: selectedBrand,
+            tokens: BRANDS_DATA[selectedBrand]
+          }
+        }, '*');
+      }
+    };
+
+    // Generate All button - generates all filtered brands
+    document.getElementById('generate-all').onclick = () => {
+      const brandsToGenerate = {};
+      filteredBrands.forEach(brandName => {
+        brandsToGenerate[brandName] = BRANDS_DATA[brandName];
+      });
+
+      parent.postMessage({
+        pluginMessage: {
+          type: 'generate-all',
+          brands: brandsToGenerate
+        }
+      }, '*');
+    };
+
+    // Cancel button
+    document.getElementById('cancel').onclick = () => {
+      parent.postMessage({ pluginMessage: { type: 'cancel' } }, '*');
+    };
+
+    // Initialize
+    init();
+  </script>
+</body>
+</html>

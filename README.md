@@ -15,6 +15,42 @@ Clone repo
 
 `npm run storybook`
 
+---
+
+## Brand Tokens & Theme Switcher
+
+This project includes a complete brand theming system with 211 brands.
+
+### Generate Brand Tokens
+
+Generate design tokens from primary colors:
+
+```bash
+npm run generate-tokens    # Generate JSON tokens in /brands
+npm run generate-css       # Generate CSS files in /css
+npm run generate-brand-list # Update Storybook brand list
+```
+
+### Theme Switcher in Storybook
+
+Storybook includes a toolbar theme switcher (paintbrush icon) that lets you switch between all 211 brand themes in real-time.
+
+Each brand theme provides CSS custom properties:
+- `--primary-100` through `--primary-900` - Color scale
+- `--primary-surface` - Brand color for surfaces
+- `--primary-onSurface` - Text color on brand surfaces
+- `--primary-gradient` - Background gradient
+- `--white`, `--black` - Base colors
+
+Use these variables in your components to support theme switching:
+
+```css
+.button {
+  background: var(--primary-500);
+  color: var(--primary-onSurface);
+}
+```
+
 Playwright browser binaries are necessary for @storybook/addon-vitest. The
 download can take some time. If you don't want to wait, you can skip the
 installation and run the following command manually later:

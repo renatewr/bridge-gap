@@ -71,7 +71,7 @@
 		},
 		"primary-surface": {
 			"$type": "color",
-			"$value": "{www-stangeavisa-no.primary-500}",
+			"$value": "{primary-500}",
 			"$description": "Brand color applied to surfaces",
 			"$usage": [
 				"background"
@@ -79,7 +79,7 @@
 		},
 		"primary-onSurface": {
 			"$type": "color",
-			"$value": "{www-stangeavisa-no.black}",
+			"$value": "{black}",
 			"$description": "Text or icons on top of primary-surface",
 			"$usage": [
 				"text",

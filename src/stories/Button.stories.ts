@@ -31,10 +31,11 @@ export const Primary: Story = {
 	},
 };
 
-export const Secondary: Story = {
+export const Subtle: Story = {
 	args: {
-		label: "Button",
-	},
+        label: "Button",
+        size: "large"
+    },
 };
 
 export const Large: Story = {

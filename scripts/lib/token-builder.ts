@@ -38,7 +38,6 @@ function toRgba(rgbString: string, alpha: number): string {
 function buildScaleToken(
 	step: ScaleStep,
 	type: "primary" | "accent",
-	brandKey: string,
 ): DTCGToken {
 	const descriptions: Record<number, string> = {
 		100: `Lightest ${type} shade, AAA compatible with ${type}-800`,
@@ -107,13 +106,13 @@ export function generateBrandTokens(
 	// Primary scale tokens
 	for (const step of primaryScale) {
 		const key = `primary-${step.step}`;
-		tokens[key] = buildScaleToken(step, "primary", brandKey);
+		tokens[key] = buildScaleToken(step, "primary");
 	}
 
-	// Semantic tokens
+	// Semantic tokens - use simple references without brand prefix for Style Dictionary compatibility
 	tokens["primary-surface"] = {
 		$type: "color",
-		$value: `{${brandKey}.primary-500}`,
+		$value: "{primary-500}",
 		$description: "Brand color applied to surfaces",
 		$usage: ["background"],
 	};
@@ -125,7 +124,7 @@ export function generateBrandTokens(
 
 	tokens["primary-onSurface"] = {
 		$type: "color",
-		$value: `{${brandKey}.${onSurfaceValue}}`,
+		$value: `{${onSurfaceValue}}`,
 		$description: "Text or icons on top of primary-surface",
 		$usage: ["text", "icons"],
 		$a11y: "Meets WCAG AA contrast on primary-surface",
