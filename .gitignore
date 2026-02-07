@@ -1,1 +1,4 @@
 node_modules/
+
+# Figma plugin build output
+figma-plugins/**/code.js

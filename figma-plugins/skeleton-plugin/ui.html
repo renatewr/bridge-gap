@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Inter, system-ui, -apple-system, sans-serif;
+      font-size: 12px;
+      padding: 16px;
+      background: #ffffff;
+    }
+
+    h2 {
+      margin-bottom: 12px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    p {
+      color: #666;
+      margin-bottom: 16px;
+      line-height: 1.4;
+    }
+
+    .button-group {
+      display: flex;
+      gap: 8px;
+      justify-content: flex-end;
+    }
+
+    button {
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 500;
+      cursor: pointer;
+      border: none;
+    }
+
+    .primary {
+      background: #18a0fb;
+      color: white;
+    }
+
+    .primary:hover {
+      background: #0d8de3;
+    }
+
+    .secondary {
+      background: #f0f0f0;
+      color: #333;
+    }
+
+    .secondary:hover {
+      background: #e5e5e5;
+    }
+  </style>
+</head>
+<body>
+  <h2>Skeleton Plugin</h2>
+  <p>This is a simple Figma plugin skeleton. Click the button below to create a rectangle.</p>
+
+  <div class="button-group">
+    <button class="secondary" id="cancel">Cancel</button>
+    <button class="primary" id="create">Create Rectangle</button>
+  </div>
+
+  <script>
+    document.getElementById('create').onclick = () => {
+      parent.postMessage({ pluginMessage: { type: 'create-rectangle' } }, '*');
+    };
+
+    document.getElementById('cancel').onclick = () => {
+      parent.postMessage({ pluginMessage: { type: 'cancel' } }, '*');
+    };
+  </script>
+</body>
+</html>

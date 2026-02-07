@@ -1,0 +1,13 @@
+{
+  "name": "skeleton-plugin",
+  "version": "1.0.0",
+  "description": "A simple Figma plugin skeleton",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "tsc -p tsconfig.json --watch"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.100.0",
+    "typescript": "^5.0.0"
+  }
+}
