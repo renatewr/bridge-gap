@@ -54,8 +54,7 @@
 		"primary-gradient": {
 			"$type": "color",
 			"$value": "linear-gradient(180deg, rgb(255, 203, 203) 0%, rgba(255, 203, 203, 0) 30%)",
-			"$description": "Background gradient",
-			"$usage": ["page","sections"]
+			"$description": "Background gradient"
 		}
 	},
 	"brand-b": {
@@ -110,8 +109,7 @@
 		"primary-gradient": {
 			"$type": "color",
 			"$value": "linear-gradient(180deg, rgb(255, 203, 203) 0%, rgba(255, 203, 203, 0) 30%)",
-			"$description": "Background gradient",
-			"$usage": ["page","sections"]
+			"$description": "Background gradient"
 		}
 	}
 }
