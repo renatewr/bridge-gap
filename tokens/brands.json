@@ -81,7 +81,7 @@
 			"$description": "AAA compatible with primary 800",
 			"$pairs": "primary-800",
 			"$usage": ["brand-background"],
-			"$a11y": "Meets WCAG AAA contrast on primary-800"
+			"$a11y": "Meets WCAG AAA contrast on primary-800 (7.0:1)"
 		},
 		"primary-400": {
 			"$type": "color",
@@ -103,7 +103,7 @@
 			"$description": "AAA compatible with primary 100",
 			"$pairs": "primary-100",
 			"$usage": ["heading-text"],
-			"$a11y": "Meets WCAG AA contrast on primary-100"
+			"$a11y": "Meets WCAG AA contrast on primary-100 (4.5:1)"
 		},
 		"primary-surface": {
 			"$type": "color",
