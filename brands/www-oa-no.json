@@ -1,0 +1,96 @@
+{
+	"www-oa-no": {
+		"white": {
+			"$type": "color",
+			"$value": "rgb(255, 255, 255)",
+			"$description": "Pure white",
+			"$usage": [
+				"background",
+				"surface",
+				"text"
+			]
+		},
+		"black": {
+			"$type": "color",
+			"$value": "rgb(0, 0, 0)",
+			"$description": "Pure black",
+			"$usage": [
+				"text",
+				"overlay"
+			]
+		},
+		"primary-100": {
+			"$type": "color",
+			"$value": "rgb(255, 203, 185)",
+			"$description": "Lightest primary shade, AAA compatible with primary-800",
+			"$pairs": "primary-800",
+			"$a11y": "Meets WCAG AAA contrast on primary-800"
+		},
+		"primary-200": {
+			"$type": "color",
+			"$value": "rgb(255, 161, 142)",
+			"$description": "Very light primary shade"
+		},
+		"primary-300": {
+			"$type": "color",
+			"$value": "rgb(255, 115, 100)",
+			"$description": "Light primary shade"
+		},
+		"primary-400": {
+			"$type": "color",
+			"$value": "rgb(255, 77, 70)",
+			"$description": "Borders and separators",
+			"$a11y": "Non-text contrast only"
+		},
+		"primary-500": {
+			"$type": "color",
+			"$value": "rgb(222, 32, 41)",
+			"$description": "Primary brand color"
+		},
+		"primary-600": {
+			"$type": "color",
+			"$value": "rgb(187, 0, 17)",
+			"$description": "Medium dark primary shade"
+		},
+		"primary-700": {
+			"$type": "color",
+			"$value": "rgb(153, 0, 0)",
+			"$description": "Dark primary shade"
+		},
+		"primary-800": {
+			"$type": "color",
+			"$value": "rgb(113, 0, 0)",
+			"$description": "Very dark primary shade, AAA compatible with primary-100",
+			"$pairs": "primary-100",
+			"$a11y": "Meets WCAG AA contrast on primary-100"
+		},
+		"primary-900": {
+			"$type": "color",
+			"$value": "rgb(76, 0, 0)",
+			"$description": "Darkest primary shade"
+		},
+		"primary-surface": {
+			"$type": "color",
+			"$value": "{www-oa-no.primary-500}",
+			"$description": "Brand color applied to surfaces",
+			"$usage": [
+				"background"
+			]
+		},
+		"primary-onSurface": {
+			"$type": "color",
+			"$value": "{www-oa-no.white}",
+			"$description": "Text or icons on top of primary-surface",
+			"$usage": [
+				"text",
+				"icons"
+			],
+			"$a11y": "Meets WCAG AA contrast on primary-surface"
+		},
+		"primary-gradient": {
+			"$type": "color",
+			"$value": "linear-gradient(180deg, rgb(255, 203, 185) 0%, rgba(255, 203, 185, 0) 30%)",
+			"$description": "Background gradient"
+		}
+	}
+}

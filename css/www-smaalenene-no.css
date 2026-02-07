@@ -1,0 +1,20 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --white: rgb(255, 255, 255); /** Pure white */
+  --black: rgb(0, 0, 0); /** Pure black */
+  --primary-100: rgb(213, 237, 255); /** Lightest primary shade, AAA compatible with primary-800 */
+  --primary-200: rgb(175, 208, 247); /** Very light primary shade */
+  --primary-300: rgb(137, 181, 227); /** Light primary shade */
+  --primary-400: rgb(101, 146, 191); /** Borders and separators */
+  --primary-500: rgb(66, 113, 156); /** Primary brand color */
+  --primary-600: rgb(36, 88, 129); /** Medium dark primary shade */
+  --primary-700: rgb(0, 64, 103); /** Dark primary shade */
+  --primary-800: rgb(0, 45, 75); /** Very dark primary shade, AAA compatible with primary-100 */
+  --primary-900: rgb(0, 28, 48); /** Darkest primary shade */
+  --primary-gradient: linear-gradient(180deg, rgb(213, 237, 255) 0%, rgba(213, 237, 255, 0) 30%); /** Background gradient */
+  --primary-surface: var(--primary-500); /** Brand color applied to surfaces */
+  --primary-onSurface: var(--white); /** Text or icons on top of primary-surface */
+}

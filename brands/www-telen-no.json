@@ -1,0 +1,96 @@
+{
+	"www-telen-no": {
+		"white": {
+			"$type": "color",
+			"$value": "rgb(255, 255, 255)",
+			"$description": "Pure white",
+			"$usage": [
+				"background",
+				"surface",
+				"text"
+			]
+		},
+		"black": {
+			"$type": "color",
+			"$value": "rgb(0, 0, 0)",
+			"$description": "Pure black",
+			"$usage": [
+				"text",
+				"overlay"
+			]
+		},
+		"primary-100": {
+			"$type": "color",
+			"$value": "rgb(232, 221, 255)",
+			"$description": "Lightest primary shade, AAA compatible with primary-800",
+			"$pairs": "primary-800",
+			"$a11y": "Meets WCAG AAA contrast on primary-800"
+		},
+		"primary-200": {
+			"$type": "color",
+			"$value": "rgb(192, 180, 255)",
+			"$description": "Very light primary shade"
+		},
+		"primary-300": {
+			"$type": "color",
+			"$value": "rgb(150, 140, 247)",
+			"$description": "Light primary shade"
+		},
+		"primary-400": {
+			"$type": "color",
+			"$value": "rgb(101, 96, 198)",
+			"$description": "Borders and separators",
+			"$a11y": "Non-text contrast only"
+		},
+		"primary-500": {
+			"$type": "color",
+			"$value": "rgb(50, 56, 150)",
+			"$description": "Primary brand color"
+		},
+		"primary-600": {
+			"$type": "color",
+			"$value": "rgb(29, 43, 134)",
+			"$description": "Medium dark primary shade"
+		},
+		"primary-700": {
+			"$type": "color",
+			"$value": "rgb(0, 31, 119)",
+			"$description": "Dark primary shade"
+		},
+		"primary-800": {
+			"$type": "color",
+			"$value": "rgb(6, 23, 91)",
+			"$description": "Very dark primary shade, AAA compatible with primary-100",
+			"$pairs": "primary-100",
+			"$a11y": "Meets WCAG AA contrast on primary-100"
+		},
+		"primary-900": {
+			"$type": "color",
+			"$value": "rgb(9, 16, 65)",
+			"$description": "Darkest primary shade"
+		},
+		"primary-surface": {
+			"$type": "color",
+			"$value": "{www-telen-no.primary-500}",
+			"$description": "Brand color applied to surfaces",
+			"$usage": [
+				"background"
+			]
+		},
+		"primary-onSurface": {
+			"$type": "color",
+			"$value": "{www-telen-no.white}",
+			"$description": "Text or icons on top of primary-surface",
+			"$usage": [
+				"text",
+				"icons"
+			],
+			"$a11y": "Meets WCAG AA contrast on primary-surface"
+		},
+		"primary-gradient": {
+			"$type": "color",
+			"$value": "linear-gradient(180deg, rgb(232, 221, 255) 0%, rgba(232, 221, 255, 0) 30%)",
+			"$description": "Background gradient"
+		}
+	}
+}
