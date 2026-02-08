@@ -223,7 +223,7 @@ const ScaleLegend = () => {
 
 	return html`
 		<div class="scale-legend">
-			<h3 class="scale-legend__title">Color Scale Reference</h3>
+			<h2 class="scale-legend__title">Color Scale Reference</h2>
 			<div class="scale-legend__content">
 				<div class="scale-legend__palette">
 					${primaryScale.map((step) => html`
@@ -240,7 +240,7 @@ const ScaleLegend = () => {
 				</div>
 			</div>
 			<div class="scale-legend__semantic">
-				<h4 class="scale-legend__subtitle">Semantic Tokens</h4>
+				<h3 class="scale-legend__subtitle">Semantic Tokens</h3>
 				<div class="scale-legend__content">
 					<div class="scale-legend__palette">
 						${semanticTokens.map((token) => html`
