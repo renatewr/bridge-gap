@@ -203,7 +203,7 @@ async function createBrandCard(
 						"AA",
 						padding + semanticCardWidth / 2 - 8,
 						currentY + semanticSwatchHeight / 2 - 6,
-						12,
+						20,
 						onSurfaceColor,
 						"Bold"
 					);
@@ -311,7 +311,7 @@ async function createBrandCard(
 			"AAA",
 			padding + pairWidth / 2 - 12,
 			currentY + pairSwatchHeight / 2 - 6,
-			12,
+			20,
 			color800,
 			"Bold"
 		);
@@ -349,7 +349,7 @@ async function createBrandCard(
 			"AAA",
 			padding + pairWidth + 8 + pairWidth / 2 - 12,
 			currentY + pairSwatchHeight / 2 - 6,
-			12,
+			20,
 			color900,
 			"Bold"
 		);
