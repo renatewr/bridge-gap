@@ -3,6 +3,7 @@ import type { Meta, StoryObj } from "@storybook/web-components-vite";
 import {
 	AllBrands,
 	BrandDetail,
+	ThemePalette,
 	brandNames,
 	type AllBrandsProps,
 	type BrandDetailProps,
@@ -43,11 +44,11 @@ export const AllBrandsFull: StoryObj<AllBrandsProps> = {
 	},
 };
 
-// Story for viewing a single brand in detail
+// Story for viewing a single brand with detailed token info
 export const SingleBrand: StoryObj<BrandDetailProps> = {
 	render: (args) => BrandDetail(args),
 	args: {
-		brandName: "www-nettavisen-no",
+		brandName: "www.nettavisen.no",
 	},
 	argTypes: {
 		brandName: {
@@ -58,20 +59,7 @@ export const SingleBrand: StoryObj<BrandDetailProps> = {
 	},
 };
 
-// Norwegian brands
-export const NorwegianBrands: StoryObj<AllBrandsProps> = {
-	render: (args) => AllBrands(args),
-	args: {
-		filter: "-no",
-		limit: 0,
-	},
-};
-
-// Danish brands
-export const DanishBrands: StoryObj<AllBrandsProps> = {
-	render: (args) => AllBrands(args),
-	args: {
-		filter: "-dk",
-		limit: 0,
-	},
+// Story for viewing the current theme from the global theme picker
+export const CurrentTheme: StoryObj = {
+	render: () => ThemePalette(),
 };

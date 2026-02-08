@@ -38,7 +38,7 @@ export interface BrandCardProps {
 }
 
 /**
- * Renders a compact brand card showing the color palette
+ * Renders a compact brand card showing the color palette (similar to Figma plugin)
  */
 export const BrandCard = ({ brandName, tokens }: BrandCardProps) => {
 	const primaryScale = ["100", "200", "300", "400", "500", "600", "700", "800", "900"];
@@ -48,42 +48,89 @@ export const BrandCard = ({ brandName, tokens }: BrandCardProps) => {
 			<div class="brand-card__header">
 				<h2 class="brand-card__name">${brandName}</h2>
 			</div>
-			<div class="brand-card__colors">
-				<div class="color-scale">
-					${primaryScale.map((step) => {
-						const token = tokens[`primary-${step}`];
-						return token
-							? html`
-								<div class="color-scale__row">
-									<div class="color-scale__swatch" style="background-color: ${token.$value}" title="${token.$value}"></div>
-									<span class="color-scale__name">primary-${step}</span>
-								</div>
-							`
-							: nothing;
-					})}
-				</div>
-				<div class="semantic-row">
-					<div
-						class="semantic-swatch"
-						style="background-color: ${tokens["primary-surface"]?.$value}; color: ${tokens["primary-onSurface"]?.$value}"
-					>
-						<span class="semantic-swatch__name">primary</span>
+			<div class="brand-card__content">
+				<!-- Primary Scale Section -->
+				<div class="section">
+					<h3 class="section__title">primary-100 to primary-900</h3>
+					<div class="scale-swatches">
+						${primaryScale.map((step) => {
+							const token = tokens[`primary-${step}`];
+							return token
+								? html`<div class="scale-swatches__swatch" style="background-color: ${token.$value}" title="primary-${step}: ${token.$value}"></div>`
+								: nothing;
+						})}
 					</div>
-					<div
-						class="semantic-swatch"
-						style="background-color: ${tokens["primary-100"]?.$value}; color: ${tokens["primary-800"]?.$value}"
-					>
-						<span class="semantic-swatch__name">100/800</span>
-					</div>
-					<div
-						class="semantic-swatch"
-						style="background-color: ${tokens["primary-200"]?.$value}; color: ${tokens["primary-900"]?.$value}"
-					>
-						<span class="semantic-swatch__name">200/900</span>
+					<div class="scale-labels">
+						${primaryScale.map((step) => html`<span class="scale-labels__label">${step}</span>`)}
 					</div>
 				</div>
+
+				<!-- Semantic Tokens Section -->
+				<div class="section">
+					<h3 class="section__title">Semantic Tokens</h3>
+					<div class="semantic-tokens">
+						<div class="semantic-token">
+							<div
+								class="semantic-token__swatch"
+								style="background-color: ${tokens["primary-surface"]?.$value}"
+							>
+								<span class="semantic-token__overlay" style="color: ${tokens["primary-onSurface"]?.$value}">AA</span>
+							</div>
+							<div class="semantic-token__info">
+								<span class="semantic-token__name">primary-surface</span>
+								<span class="semantic-token__desc">${tokens["primary-surface"]?.$description || "Brand color applied to surfaces"}</span>
+							</div>
+						</div>
+						<div class="semantic-token">
+							<div
+								class="semantic-token__swatch"
+								style="background-color: ${tokens["primary-onSurface"]?.$value}"
+							></div>
+							<div class="semantic-token__info">
+								<span class="semantic-token__name">primary-onSurface</span>
+								<span class="semantic-token__desc">${tokens["primary-onSurface"]?.$description || "Text or icons on top of primary-surface"}</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Accessible Pairs Section -->
+				<div class="section">
+					<h3 class="section__title">Accessible Pairs (AAA)</h3>
+					<div class="accessible-pairs">
+						<div class="accessible-pair">
+							<div
+								class="accessible-pair__swatch"
+								style="background-color: ${tokens["primary-100"]?.$value}"
+							>
+								<span class="accessible-pair__overlay" style="color: ${tokens["primary-800"]?.$value}">AAA</span>
+							</div>
+							<div class="accessible-pair__info">
+								<span class="accessible-pair__name">primary-100 / primary-800</span>
+								<span class="accessible-pair__desc">AAA contrast pairing</span>
+							</div>
+						</div>
+						<div class="accessible-pair">
+							<div
+								class="accessible-pair__swatch"
+								style="background-color: ${tokens["primary-200"]?.$value}"
+							>
+								<span class="accessible-pair__overlay" style="color: ${tokens["primary-900"]?.$value}">AAA</span>
+							</div>
+							<div class="accessible-pair__info">
+								<span class="accessible-pair__name">primary-200 / primary-900</span>
+								<span class="accessible-pair__desc">AAA contrast pairing</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Gradient Section -->
 				${tokens["primary-gradient"] ? html`
-					<div class="gradient-row" style="background: ${tokens["primary-gradient"].$value}"></div>
+					<div class="section">
+						<h3 class="section__title">Gradient</h3>
+						<div class="gradient-swatch" style="background: ${tokens["primary-gradient"].$value}"></div>
+					</div>
 				` : nothing}
 			</div>
 		</div>
@@ -179,7 +226,7 @@ export const BrandDetail = ({ brandName }: BrandDetailProps) => {
 				</div>
 			</div>
 
-			
+
 
 			<div class="brand-card" style="margin-top: 24px">
 				<div class="brand-card__header">
@@ -194,6 +241,106 @@ export const BrandDetail = ({ brandName }: BrandDetailProps) => {
 	`;
 };
 
+/**
+ * Renders the palette using CSS variables from the globally selected theme.
+ * Uses the theme selected in the Storybook toolbar.
+ */
+export const ThemePalette = () => {
+	const primaryScale = ["100", "200", "300", "400", "500", "600", "700", "800", "900"];
+
+	return html`
+		<div class="brand-palette brand-detail">
+			<div class="brand-palette__header">
+				<h1 class="brand-palette__title">Current Theme</h1>
+				<p class="brand-palette__subtitle">Using CSS variables from the selected brand theme</p>
+			</div>
+
+			<div class="brand-card">
+				<div class="brand-card__content">
+					<!-- Primary Scale Section -->
+					<div class="section">
+						<h3 class="section__title">primary-100 to primary-900</h3>
+						<div class="scale-swatches">
+							${primaryScale.map((step) => html`
+								<div class="scale-swatches__swatch" style="background-color: var(--primary-${step})"></div>
+							`)}
+						</div>
+						<div class="scale-labels">
+							${primaryScale.map((step) => html`<span class="scale-labels__label">${step}</span>`)}
+						</div>
+					</div>
+
+					<!-- Semantic Tokens Section -->
+					<div class="section">
+						<h3 class="section__title">Semantic Tokens</h3>
+						<div class="semantic-tokens">
+							<div class="semantic-token">
+								<div
+									class="semantic-token__swatch"
+									style="background-color: var(--primary-surface)"
+								>
+									<span class="semantic-token__overlay" style="color: var(--primary-onSurface)">AA</span>
+								</div>
+								<div class="semantic-token__info">
+									<span class="semantic-token__name">primary-surface</span>
+									<span class="semantic-token__desc">Brand color applied to surfaces</span>
+								</div>
+							</div>
+							<div class="semantic-token">
+								<div
+									class="semantic-token__swatch"
+									style="background-color: var(--primary-onSurface)"
+								></div>
+								<div class="semantic-token__info">
+									<span class="semantic-token__name">primary-onSurface</span>
+									<span class="semantic-token__desc">Text or icons on top of primary-surface</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Accessible Pairs Section -->
+					<div class="section">
+						<h3 class="section__title">Accessible Pairs (AAA)</h3>
+						<div class="accessible-pairs">
+							<div class="accessible-pair">
+								<div
+									class="accessible-pair__swatch"
+									style="background-color: var(--primary-100)"
+								>
+									<span class="accessible-pair__overlay" style="color: var(--primary-800)">AAA</span>
+								</div>
+								<div class="accessible-pair__info">
+									<span class="accessible-pair__name">primary-100 / primary-800</span>
+									<span class="accessible-pair__desc">AAA contrast pairing</span>
+								</div>
+							</div>
+							<div class="accessible-pair">
+								<div
+									class="accessible-pair__swatch"
+									style="background-color: var(--primary-200)"
+								>
+									<span class="accessible-pair__overlay" style="color: var(--primary-900)">AAA</span>
+								</div>
+								<div class="accessible-pair__info">
+									<span class="accessible-pair__name">primary-200 / primary-900</span>
+									<span class="accessible-pair__desc">AAA contrast pairing</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Gradient Section -->
+					<div class="section">
+						<h3 class="section__title">Gradient</h3>
+						<div class="gradient-swatch" style="background: var(--primary-gradient)"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	`;
+};
+
 export interface AllBrandsProps {
 	filter?: string;
 	limit?: number;
@@ -202,14 +349,14 @@ export interface AllBrandsProps {
 // Token scale descriptions for the legend
 const scaleDescriptions: Record<string, string> = {
 	"100": "Lightest shade, AAA compatible with 800",
-	"200": "Very light shade",
+	"200": "Very light shade, AAA compatible with 900",
 	"300": "Light shade",
 	"400": "Borders and separators",
 	"500": "Primary brand color",
 	"600": "Medium dark shade",
 	"700": "Dark shade",
 	"800": "Very dark shade, AAA compatible with 100",
-	"900": "Darkest shade",
+	"900": "Darkest shade, AAA compatible with 200",
 	"surface": "Brand color applied to surfaces",
 	"onSurface": "Text or icons on top of primary-surface",
 };
