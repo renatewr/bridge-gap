@@ -1,5 +1,5 @@
 {
-	"www-aasanetidende-no": {
+	"www.aasanetidende.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -93,7 +93,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-aasavis-no": {
+	"www.aasavis.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -187,7 +187,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-akersposten-no": {
+	"www.akersposten.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -281,7 +281,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-alt-no": {
+	"www.alt.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -375,7 +375,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-amagerliv-dk": {
+	"www.amagerliv.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -469,7 +469,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-amta-no": {
+	"www.amta.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -563,7 +563,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-amtsavisen-dk": {
+	"www.amtsavisen.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -657,7 +657,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-an-no": {
+	"www.an.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -751,7 +751,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-ao-no": {
+	"www.ao.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -845,7 +845,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-auraavis-no": {
+	"www.auraavis.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -939,7 +939,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-austagderblad-no": {
+	"www.austagderblad.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -1033,7 +1033,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-avisa-hordaland-no": {
+	"www.avisa.hordaland.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -1127,7 +1127,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-avisa-valdres-no": {
+	"www.avisa.valdres.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -1221,7 +1221,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-avisagaula-no": {
+	"www.avisagaula.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -1315,7 +1315,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-avisenagder-no": {
+	"www.avisenagder.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -1409,7 +1409,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-avisendanmark-dk": {
+	"www.avisendanmark.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -1503,7 +1503,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-avisnavn-dk": {
+	"www.avisnavn.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -1597,7 +1597,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-avisnavn-no": {
+	"www.avisnavn.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -1691,7 +1691,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-ba-no": {
+	"www.ba.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -1785,7 +1785,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-berlingske-dk": {
+	"www.berlingske.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -1879,7 +1879,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-billund-ugeavis-dk": {
+	"www.billund.ugeavis.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -1973,7 +1973,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-bjerringbro-avis-dk": {
+	"www.bjerringbro.avis.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -2067,7 +2067,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-blv-no": {
+	"www.blv.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -2161,7 +2161,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-bodonu-no": {
+	"www.bodonu.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -2255,7 +2255,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-bondebladet-no": {
+	"www.bondebladet.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -2349,7 +2349,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-braedstrup-avis-dk": {
+	"www.braedstrup.avis.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -2443,7 +2443,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-bt-dk": {
+	"www.bt.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -2537,7 +2537,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-budstikka-no": {
+	"www.budstikka.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -2631,7 +2631,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-bygdebladet-no": {
+	"www.bygdebladet.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -2725,7 +2725,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-bygdeposten-no": {
+	"www.bygdeposten.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -2819,7 +2819,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-dagbladet-holstebro-struer-dk": {
+	"www.dagbladet.holstebro.struer.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -2913,7 +2913,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-dalane-tidende-no": {
+	"www.dalane.tidende.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -3007,7 +3007,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-dbrs-dk": {
+	"www.dbrs.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -3101,7 +3101,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-drangedalsposten-no": {
+	"www.drangedalsposten.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -3195,7 +3195,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-dt-no": {
+	"www.dt.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -3289,7 +3289,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-eikerbladet-no": {
+	"www.eikerbladet.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -3383,7 +3383,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-elbobladet-dk": {
+	"www.elbobladet.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -3477,7 +3477,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-enebakkavis-no": {
+	"www.enebakkavis.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -3571,7 +3571,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-erhvervplus-dk": {
+	"www.erhvervplus.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -3665,7 +3665,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-eub-no": {
+	"www.eub.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -3759,7 +3759,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-euroinvestor-dk": {
+	"www.euroinvestor.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -3853,7 +3853,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-f-b-no": {
+	"www.f.b.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -3947,7 +3947,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-faa-dk": {
+	"www.faa.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -4041,7 +4041,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-fanaposten-no": {
+	"www.fanaposten.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -4135,7 +4135,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-finnmarkdagblad-no": {
+	"www.finnmarkdagblad.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -4229,7 +4229,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-finnmarkdebatten-no": {
+	"www.finnmarkdebatten.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -4323,7 +4323,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-finnmarken-no": {
+	"www.finnmarken.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -4417,7 +4417,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-finnmarksposten-no": {
+	"www.finnmarksposten.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -4511,7 +4511,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-firda-no": {
+	"www.firda.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -4605,7 +4605,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-firdaposten-no": {
+	"www.firdaposten.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -4699,7 +4699,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-folkebladetlemvig-dk": {
+	"www.folkebladetlemvig.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -4793,7 +4793,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-frdb-dk": {
+	"www.frdb.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -4887,7 +4887,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-frederiksbergliv-dk": {
+	"www.frederiksbergliv.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -4981,7 +4981,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-freestylefolkeblad-no": {
+	"www.freestylefolkeblad.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -5075,7 +5075,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-fremover-no": {
+	"www.fremover.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -5169,7 +5169,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-frostingen-no": {
+	"www.frostingen.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -5263,7 +5263,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-fyens-dk": {
+	"www.fyens.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -5357,7 +5357,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-gbnett-no": {
+	"www.gbnett.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -5451,7 +5451,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-gd-no": {
+	"www.gd.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -5545,7 +5545,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-gjengangeren-no": {
+	"www.gjengangeren.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -5639,7 +5639,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-glomdalen-no": {
+	"www.glomdalen.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -5733,7 +5733,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-h-a-no": {
+	"www.h.a.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -5827,7 +5827,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-h-avis-no": {
+	"www.h.avis.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -5921,7 +5921,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-ha-halden-no": {
+	"www.ha.halden.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -6015,7 +6015,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-hadeland-no": {
+	"www.hadeland.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -6109,7 +6109,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-hafjell24-no": {
+	"www.hafjell24.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -6203,7 +6203,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-hammerfestingen-no": {
+	"www.hammerfestingen.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -6297,7 +6297,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-hardanger-folkeblad-no": {
+	"www.hardanger.folkeblad.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -6391,7 +6391,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-hedensted-avis-dk": {
+	"www.hedensted.avis.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -6485,7 +6485,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-helg-no": {
+	"www.helg.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -6579,7 +6579,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-helsingordagblad-dk": {
+	"www.helsingordagblad.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -6673,7 +6673,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-holstebroonsdag-dk": {
+	"www.holstebroonsdag.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -6767,7 +6767,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-horsensposten-dk": {
+	"www.horsensposten.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -6861,7 +6861,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-hsfo-dk": {
+	"www.hsfo.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -6955,7 +6955,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-ifinnmark-no": {
+	"www.ifinnmark.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -7049,7 +7049,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-iharstad-no": {
+	"www.iharstad.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -7143,7 +7143,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-ilevanger-no": {
+	"www.ilevanger.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -7237,7 +7237,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-inderoyningen-no": {
+	"www.inderoyningen.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -7331,7 +7331,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-indre-no": {
+	"www.indre.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -7425,7 +7425,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-isandnessjoen-no": {
+	"www.isandnessjoen.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -7519,7 +7519,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-iverdal-no": {
+	"www.iverdal.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -7613,7 +7613,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-jarlsbergavis-no": {
+	"www.jarlsbergavis.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -7707,7 +7707,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-jbl-no": {
+	"www.jbl.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -7801,7 +7801,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-jfmplay-dk": {
+	"www.jfmplay.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -7895,7 +7895,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-jv-dk": {
+	"www.jv.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -7989,7 +7989,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-karmoynytt-no": {
+	"www.karmoynytt.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -8083,7 +8083,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-kertemindeugeavis-dk": {
+	"www.kertemindeugeavis.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -8177,7 +8177,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-kobenhavnliv-dk": {
+	"www.kobenhavnliv.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -8271,7 +8271,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-kp-no": {
+	"www.kp.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -8365,7 +8365,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-krs-no": {
+	"www.krs.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -8459,7 +8459,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-kv-no": {
+	"www.kv.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -8553,7 +8553,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-kvinnheringen-no": {
+	"www.kvinnheringen.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -8647,7 +8647,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-laagendalsposten-no": {
+	"www.laagendalsposten.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -8741,7 +8741,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-lierposten-no": {
+	"www.lierposten.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -8835,7 +8835,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-lofot-tidende-no": {
+	"www.lofot.tidende.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -8929,7 +8929,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-lofotposten-no": {
+	"www.lofotposten.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -9023,7 +9023,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-lokal-avisa-no": {
+	"www.lokal.avisa.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -9117,7 +9117,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-lokalavisen-lemvig-dk": {
+	"www.lokalavisen.lemvig.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -9211,7 +9211,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-lokalavisenassens-dk": {
+	"www.lokalavisenassens.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -9305,7 +9305,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-lokalavisennyborg-dk": {
+	"www.lokalavisennyborg.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -9399,7 +9399,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-lyngdalsavis-no": {
+	"www.lyngdalsavis.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -9493,7 +9493,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-lystrupliv-dk": {
+	"www.lystrupliv.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -9587,7 +9587,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-mariageravis-dk": {
+	"www.mariageravis.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -9681,7 +9681,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-melfarposten-dk": {
+	"www.melfarposten.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -9775,7 +9775,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-merakerposten-no": {
+	"www.merakerposten.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -9869,7 +9869,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-midtfynsposten-dk": {
+	"www.midtfynsposten.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -9963,7 +9963,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-minmenuett-no": {
+	"www.minmenuett.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -10057,7 +10057,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-mittjessheim-no": {
+	"www.mittjessheim.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -10151,7 +10151,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-mittlillestrom-no": {
+	"www.mittlillestrom.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -10245,7 +10245,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-mittloerenskog-no": {
+	"www.mittloerenskog.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -10339,7 +10339,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-moss-avis-no": {
+	"www.moss.avis.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -10433,7 +10433,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-nab-no": {
+	"www.nab.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -10527,7 +10527,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-namdalsavisa-no": {
+	"www.namdalsavisa.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -10621,7 +10621,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-nationen-no": {
+	"www.nationen.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -10715,7 +10715,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-nettavisen-no": {
+	"www.nettavisen.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -10809,7 +10809,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-nidaros-no": {
+	"www.nidaros.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -10903,7 +10903,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-noblad-no": {
+	"www.noblad.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -10997,7 +10997,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-nord24-no": {
+	"www.nord24.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -11091,7 +11091,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-norddalen-no": {
+	"www.norddalen.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -11185,7 +11185,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-nordhordland-no": {
+	"www.nordhordland.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -11279,7 +11279,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-nordlys-no": {
+	"www.nordlys.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -11373,7 +11373,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-nordnorskdebatt-no": {
+	"www.nordnorskdebatt.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -11467,7 +11467,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-norsklandbruk-no": {
+	"www.norsklandbruk.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -11561,7 +11561,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-nsnet-dk": {
+	"www.nsnet.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -11655,7 +11655,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-nt24-no": {
+	"www.nt24.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -11749,7 +11749,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-nyetroms-no": {
+	"www.nyetroms.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -11843,7 +11843,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-oa-no": {
+	"www.oa.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -11937,7 +11937,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-oblad-no": {
+	"www.oblad.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -12031,7 +12031,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-odderavis-dk": {
+	"www.odderavis.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -12125,7 +12125,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-oksnesavisa-no": {
+	"www.oksnesavisa.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -12219,7 +12219,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-op-no": {
+	"www.op.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -12313,7 +12313,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-oslodebatten-no": {
+	"www.oslodebatten.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -12407,7 +12407,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-ostlendingen-no": {
+	"www.ostlendingen.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -12501,7 +12501,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-oyene-no": {
+	"www.oyene.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -12595,7 +12595,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-pd-no": {
+	"www.pd.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -12689,7 +12689,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-polkaposten-no": {
+	"www.polkaposten.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -12783,7 +12783,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-r-a-no": {
+	"www.r.a.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -12877,7 +12877,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-rablad-no": {
+	"www.rablad.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -12971,7 +12971,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-ranablad-no": {
+	"www.ranablad.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -13065,7 +13065,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-ranano-no": {
+	"www.ranano.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -13159,7 +13159,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-randersonsdag-dk": {
+	"www.randersonsdag.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -13253,7 +13253,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-rastavanger-no": {
+	"www.rastavanger.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -13347,7 +13347,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-raumnes-no": {
+	"www.raumnes.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -13441,7 +13441,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-rb-no": {
+	"www.rb.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -13535,7 +13535,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-retten-no": {
+	"www.retten.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -13629,7 +13629,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-rha-no": {
+	"www.rha.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -13723,7 +13723,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-ringblad-no": {
+	"www.ringblad.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -13817,7 +13817,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-ringsaker-blad-no": {
+	"www.ringsaker.blad.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -13911,7 +13911,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-risskovliv-dk": {
+	"www.risskovliv.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -14005,7 +14005,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-rumbarapporten-no": {
+	"www.rumbarapporten.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -14099,7 +14099,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-sa-no": {
+	"www.sa.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -14193,7 +14193,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-sageneavis-no": {
+	"www.sageneavis.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -14287,7 +14287,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-salsaposten-no": {
+	"www.salsaposten.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -14381,7 +14381,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-sandeavis-no": {
+	"www.sandeavis.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -14475,7 +14475,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-sandnesposten-no": {
+	"www.sandnesposten.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -14569,7 +14569,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-sb-no": {
+	"www.sb.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -14663,7 +14663,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-senja247-no": {
+	"www.senja247.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -14757,7 +14757,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-sjusjoen24-no": {
+	"www.sjusjoen24.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -14851,7 +14851,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-skanderborgliv-dk": {
+	"www.skanderborgliv.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -14945,7 +14945,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-skoleavisa-no": {
+	"www.skoleavisa.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -15039,7 +15039,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-smaalenene-no": {
+	"www.smaalenene.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -15133,7 +15133,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-snasningen-no": {
+	"www.snasningen.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -15227,7 +15227,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-sognavis-no": {
+	"www.sognavis.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -15321,7 +15321,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-solabladet-no": {
+	"www.solabladet.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -15415,7 +15415,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-solungavisa-no": {
+	"www.solungavisa.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -15509,7 +15509,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-stangeavisa-no": {
+	"www.stangeavisa.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -15603,7 +15603,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-steinkjer-avisa-no": {
+	"www.steinkjer.avisa.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -15697,7 +15697,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-stiften-dk": {
+	"www.stiften.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -15791,7 +15791,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-strandbuen-no": {
+	"www.strandbuen.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -15885,7 +15885,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-sva-no": {
+	"www.sva.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -15979,7 +15979,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-svelviksposten-no": {
+	"www.svelviksposten.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -16073,7 +16073,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-sydvesten-no": {
+	"www.sydvesten.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -16167,7 +16167,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-t-a-no": {
+	"www.t.a.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -16261,7 +16261,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-ta-no": {
+	"www.ta.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -16355,7 +16355,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-tangotidende-no": {
+	"www.tangotidende.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -16449,7 +16449,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-tb-no": {
+	"www.tb.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -16543,7 +16543,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-telen-no": {
+	"www.telen.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -16637,7 +16637,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-tk-no": {
+	"www.tk.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -16731,7 +16731,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-totenidag-no": {
+	"www.totenidag.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -16825,7 +16825,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-traktor-no": {
+	"www.traktor.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -16919,7 +16919,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-tromsoby-no": {
+	"www.tromsoby.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -17013,7 +17013,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-tronderdebatt-no": {
+	"www.tronderdebatt.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -17107,7 +17107,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-tvedestrandsposten-no": {
+	"www.tvedestrandsposten.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -17201,7 +17201,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-ugeavisen-aabenraa-dk": {
+	"www.ugeavisen.aabenraa.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -17295,7 +17295,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-ugeavisen-dk": {
+	"www.ugeavisen.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -17389,7 +17389,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-ugeavisen-esbjerg-dk": {
+	"www.ugeavisen.esbjerg.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -17483,7 +17483,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-ugeavisen-haderslev-dk": {
+	"www.ugeavisen.haderslev.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -17577,7 +17577,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-ugeavisen-kolding-dk": {
+	"www.ugeavisen.kolding.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -17671,7 +17671,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-ugeavisen-ribe-dk": {
+	"www.ugeavisen.ribe.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -17765,7 +17765,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-ugeavisen-soenderborg-dk": {
+	"www.ugeavisen.soenderborg.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -17859,7 +17859,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-ugeavisen-toender-dk": {
+	"www.ugeavisen.toender.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -17953,7 +17953,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-ugeavisen-varde-dk": {
+	"www.ugeavisen.varde.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -18047,7 +18047,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-ugeavisen-vejen-dk": {
+	"www.ugeavisen.vejen.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -18141,7 +18141,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-ugeavisenfaaborg-dk": {
+	"www.ugeavisenfaaborg.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -18235,7 +18235,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-ugeavisennordfyn-dk": {
+	"www.ugeavisennordfyn.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -18329,7 +18329,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-ugeavisenodense-dk": {
+	"www.ugeavisenodense.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -18423,7 +18423,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-ugeavisenoeboen-dk": {
+	"www.ugeavisenoeboen.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -18517,7 +18517,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-ugeavisenringkoebing-dk": {
+	"www.ugeavisenringkoebing.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -18611,7 +18611,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-ugeavisenstruer-dk": {
+	"www.ugeavisenstruer.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -18705,7 +18705,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-ugeavisensvendborg-dk": {
+	"www.ugeavisensvendborg.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -18799,7 +18799,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-ugeavisenvejle-dk": {
+	"www.ugeavisenvejle.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -18893,7 +18893,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-ugepostenskjern-dk": {
+	"www.ugepostenskjern.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -18987,7 +18987,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-vafo-dk": {
+	"www.vafo.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -19081,7 +19081,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-varingen-no": {
+	"www.varingen.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -19175,7 +19175,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-vestbyavis-no": {
+	"www.vestbyavis.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -19269,7 +19269,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-vestviken24-no": {
+	"www.vestviken24.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -19363,7 +19363,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-viborg-folkeblad-dk": {
+	"www.viborg.folkeblad.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -19457,7 +19457,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-viborgnyt-dk": {
+	"www.viborgnyt.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -19551,7 +19551,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-vise-no": {
+	"www.vise.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -19645,7 +19645,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-vp-no": {
+	"www.vp.no": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
@@ -19739,7 +19739,7 @@
 			"$description": "Background gradient"
 		}
 	},
-	"www-weekendavisen-dk": {
+	"www.weekendavisen.dk": {
 		"white": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
