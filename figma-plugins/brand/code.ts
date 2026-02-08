@@ -177,7 +177,7 @@ async function createBrandCard(
 
 	// Surface and onSurface cards side by side
 	const surfaceToken = tokens["primary-surface"];
-	const onSurfaceToken = tokens["primary-onSurface"];
+	const onSurfaceToken = tokens["primary-on-surface"];
 	const semanticCardWidth = (cardWidth - padding * 2 - 8) / 2;
 	const semanticSwatchHeight = 40;
 
@@ -246,12 +246,12 @@ async function createBrandCard(
 				semanticCardWidth,
 				semanticSwatchHeight
 			);
-			onSurfaceRect.name = "primary-onSurface";
+			onSurfaceRect.name = "primary-on-surface";
 			elements.push(onSurfaceRect);
 
 			// onSurface name
 			const onSurfaceName = await createTextLabel(
-				"primary-onSurface",
+				"primary-on-surface",
 				padding + semanticCardWidth + 8,
 				currentY + semanticSwatchHeight + 4,
 				10,

@@ -126,7 +126,7 @@ export function generateBrandTokens(
 	const contrastWithWhite = chroma.contrast(primary500.color, "white");
 	const onSurfaceValue = contrastWithWhite >= 4.5 ? "white" : "black";
 
-	tokens["primary-onSurface"] = {
+	tokens["primary-on-surface"] = {
 		$type: "color",
 		$value: `{${onSurfaceValue}}`,
 		$description: "Text or icons on top of primary-surface",

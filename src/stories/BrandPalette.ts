@@ -74,7 +74,7 @@ export const BrandCard = ({ brandName, tokens }: BrandCardProps) => {
 								class="semantic-token__swatch"
 								style="background-color: ${tokens["primary-surface"]?.$value}"
 							>
-								<span class="semantic-token__overlay" style="color: ${tokens["primary-onSurface"]?.$value}">AA</span>
+								<span class="semantic-token__overlay" style="color: ${tokens["primary-on-surface"]?.$value}">AA</span>
 							</div>
 							<div class="semantic-token__info">
 								<span class="semantic-token__name">primary-surface</span>
@@ -84,11 +84,11 @@ export const BrandCard = ({ brandName, tokens }: BrandCardProps) => {
 						<div class="semantic-token">
 							<div
 								class="semantic-token__swatch"
-								style="background-color: ${tokens["primary-onSurface"]?.$value}"
+								style="background-color: ${tokens["primary-on-surface"]?.$value}"
 							></div>
 							<div class="semantic-token__info">
-								<span class="semantic-token__name">primary-onSurface</span>
-								<span class="semantic-token__desc">${tokens["primary-onSurface"]?.$description || "Text or icons on top of primary-surface"}</span>
+								<span class="semantic-token__name">primary-on-surface</span>
+								<span class="semantic-token__desc">${tokens["primary-on-surface"]?.$description || "Text or icons on top of primary-surface"}</span>
 							</div>
 						</div>
 					</div>
@@ -198,17 +198,17 @@ export const BrandDetail = ({ brandName }: BrandDetailProps) => {
 				<div class="semantic-row">
 					<div
 						class="semantic-swatch"
-						style="background-color: ${tokens["primary-surface"]?.$value}; color: ${tokens["primary-onSurface"]?.$value}"
+						style="background-color: ${tokens["primary-surface"]?.$value}; color: ${tokens["primary-on-surface"]?.$value}"
 					>
 						<span class="semantic-swatch__name">primary-surface</span>
 						<span class="semantic-swatch__value">${tokens["primary-surface"]?.$value}</span>
 					</div>
 					<div
 						class="semantic-swatch"
-						style="background-color: ${tokens["primary-onSurface"]?.$value}; color: ${tokens["primary-surface"]?.$value}"
+						style="background-color: ${tokens["primary-on-surface"]?.$value}; color: ${tokens["primary-surface"]?.$value}"
 					>
-						<span class="semantic-swatch__name">primary-onSurface</span>
-						<span class="semantic-swatch__value">${tokens["primary-onSurface"]?.$value}</span>
+						<span class="semantic-swatch__name">primary-on-surface</span>
+						<span class="semantic-swatch__value">${tokens["primary-on-surface"]?.$value}</span>
 					</div>
 				</div>
 				<div class="token-info">
@@ -217,10 +217,10 @@ export const BrandDetail = ({ brandName }: BrandDetailProps) => {
 						<span class="token-info__value">${tokens["primary-surface"]?.$description}</span>
 					</div>
 					<div class="token-info__item">
-						<span class="token-info__label">onSurface</span>
+						<span class="token-info__label">on-surface</span>
 						<span class="token-info__value">
-							${tokens["primary-onSurface"]?.$description}
-							${tokens["primary-onSurface"]?.$a11y ? html`<span class="a11y-badge">${tokens["primary-onSurface"].$a11y}</span>` : nothing}
+							${tokens["primary-on-surface"]?.$description}
+							${tokens["primary-on-surface"]?.$a11y ? html`<span class="a11y-badge">${tokens["primary-on-surface"].$a11y}</span>` : nothing}
 						</span>
 					</div>
 				</div>
@@ -292,7 +292,7 @@ export const ThemePalette = () => {
 									style="background-color: var(--primary-on-surface)"
 								></div>
 								<div class="semantic-token__info">
-									<span class="semantic-token__name">primary-onSurface</span>
+									<span class="semantic-token__name">primary-on-surface</span>
 									<span class="semantic-token__desc">Text or icons on top of primary-surface</span>
 								</div>
 							</div>
@@ -358,7 +358,7 @@ const scaleDescriptions: Record<string, string> = {
 	"800": "Very dark shade, AAA compatible with 100",
 	"900": "Darkest shade, AAA compatible with 200",
 	"surface": "Brand color applied to surfaces",
-	"onSurface": "Text or icons on top of primary-surface",
+	"on-surface": "Text or icons on top of primary-surface",
 };
 
 /**
@@ -366,7 +366,7 @@ const scaleDescriptions: Record<string, string> = {
  */
 const ScaleLegend = () => {
 	const primaryScale = ["100", "200", "300", "400", "500", "600", "700", "800", "900"];
-	const semanticTokens = ["surface", "onSurface"];
+	const semanticTokens = ["surface", "on-surface"];
 
 	return html`
 		<div class="scale-legend">
@@ -455,7 +455,7 @@ const ScaleDocumentation = () => {
 					<div class="scale-doc__semantic-swatch" style="background-color: var(--primary-surface)">
 						<span style="color: var(--primary-on-surface)">AA</span>
 					</div>
-					<span class="scale-doc__semantic-label">surface / onSurface</span>
+					<span class="scale-doc__semantic-label">surface / on-surface</span>
 				</div>
 				<div class="scale-doc__semantic-item">
 					<div class="scale-doc__semantic-swatch" style="background-color: var(--primary-100)">

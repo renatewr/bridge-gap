@@ -80,7 +80,7 @@
 			"background"
 		]
 	},
-	"primary-onSurface": {
+	"primary-on-surface": {
 		"$type": "color",
 		"$value": "{white}",
 		"$description": "Text or icons on top of primary-surface",

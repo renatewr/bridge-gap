@@ -81,7 +81,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -179,7 +179,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -277,7 +277,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -375,7 +375,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -473,7 +473,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -571,7 +571,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(0, 0, 0)",
 			"$description": "Text or icons on top of primary-surface",
@@ -669,7 +669,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -767,7 +767,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -865,7 +865,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(0, 0, 0)",
 			"$description": "Text or icons on top of primary-surface",
@@ -963,7 +963,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(0, 0, 0)",
 			"$description": "Text or icons on top of primary-surface",
@@ -1061,7 +1061,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -1159,7 +1159,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -1257,7 +1257,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -1355,7 +1355,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -1453,7 +1453,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -1551,7 +1551,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -1649,7 +1649,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -1747,7 +1747,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(0, 0, 0)",
 			"$description": "Text or icons on top of primary-surface",
@@ -1845,7 +1845,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -1943,7 +1943,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(0, 0, 0)",
 			"$description": "Text or icons on top of primary-surface",
@@ -2041,7 +2041,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -2139,7 +2139,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -2237,7 +2237,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -2335,7 +2335,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -2433,7 +2433,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(0, 0, 0)",
 			"$description": "Text or icons on top of primary-surface",
@@ -2531,7 +2531,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -2629,7 +2629,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -2727,7 +2727,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -2825,7 +2825,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -2923,7 +2923,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(0, 0, 0)",
 			"$description": "Text or icons on top of primary-surface",
@@ -3021,7 +3021,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -3119,7 +3119,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -3217,7 +3217,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -3315,7 +3315,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -3413,7 +3413,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(0, 0, 0)",
 			"$description": "Text or icons on top of primary-surface",
@@ -3511,7 +3511,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -3609,7 +3609,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -3707,7 +3707,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -3805,7 +3805,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -3903,7 +3903,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -4001,7 +4001,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -4099,7 +4099,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -4197,7 +4197,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -4295,7 +4295,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -4393,7 +4393,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -4491,7 +4491,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -4589,7 +4589,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -4687,7 +4687,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -4785,7 +4785,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -4883,7 +4883,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -4981,7 +4981,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -5079,7 +5079,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -5177,7 +5177,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -5275,7 +5275,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -5373,7 +5373,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -5471,7 +5471,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(0, 0, 0)",
 			"$description": "Text or icons on top of primary-surface",
@@ -5569,7 +5569,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -5667,7 +5667,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(0, 0, 0)",
 			"$description": "Text or icons on top of primary-surface",
@@ -5765,7 +5765,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -5863,7 +5863,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -5961,7 +5961,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -6059,7 +6059,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -6157,7 +6157,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -6255,7 +6255,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -6353,7 +6353,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -6451,7 +6451,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -6549,7 +6549,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -6647,7 +6647,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -6745,7 +6745,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -6843,7 +6843,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(0, 0, 0)",
 			"$description": "Text or icons on top of primary-surface",
@@ -6941,7 +6941,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -7039,7 +7039,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -7137,7 +7137,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -7235,7 +7235,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -7333,7 +7333,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -7431,7 +7431,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -7529,7 +7529,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -7627,7 +7627,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -7725,7 +7725,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -7823,7 +7823,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -7921,7 +7921,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -8019,7 +8019,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -8117,7 +8117,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -8215,7 +8215,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -8313,7 +8313,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -8411,7 +8411,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -8509,7 +8509,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -8607,7 +8607,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -8705,7 +8705,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -8803,7 +8803,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -8901,7 +8901,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -8999,7 +8999,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -9097,7 +9097,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -9195,7 +9195,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -9293,7 +9293,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(0, 0, 0)",
 			"$description": "Text or icons on top of primary-surface",
@@ -9391,7 +9391,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -9489,7 +9489,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -9587,7 +9587,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -9685,7 +9685,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -9783,7 +9783,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -9881,7 +9881,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(0, 0, 0)",
 			"$description": "Text or icons on top of primary-surface",
@@ -9979,7 +9979,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -10077,7 +10077,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -10175,7 +10175,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -10273,7 +10273,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -10371,7 +10371,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -10469,7 +10469,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -10567,7 +10567,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(0, 0, 0)",
 			"$description": "Text or icons on top of primary-surface",
@@ -10665,7 +10665,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -10763,7 +10763,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(0, 0, 0)",
 			"$description": "Text or icons on top of primary-surface",
@@ -10861,7 +10861,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -10959,7 +10959,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -11057,7 +11057,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(0, 0, 0)",
 			"$description": "Text or icons on top of primary-surface",
@@ -11155,7 +11155,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -11253,7 +11253,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -11351,7 +11351,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -11449,7 +11449,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -11547,7 +11547,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -11645,7 +11645,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -11743,7 +11743,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -11841,7 +11841,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -11939,7 +11939,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -12037,7 +12037,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(0, 0, 0)",
 			"$description": "Text or icons on top of primary-surface",
@@ -12135,7 +12135,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -12233,7 +12233,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -12331,7 +12331,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(0, 0, 0)",
 			"$description": "Text or icons on top of primary-surface",
@@ -12429,7 +12429,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -12527,7 +12527,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -12625,7 +12625,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(0, 0, 0)",
 			"$description": "Text or icons on top of primary-surface",
@@ -12723,7 +12723,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -12821,7 +12821,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -12919,7 +12919,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -13017,7 +13017,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -13115,7 +13115,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -13213,7 +13213,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -13311,7 +13311,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -13409,7 +13409,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -13507,7 +13507,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(0, 0, 0)",
 			"$description": "Text or icons on top of primary-surface",
@@ -13605,7 +13605,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -13703,7 +13703,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(0, 0, 0)",
 			"$description": "Text or icons on top of primary-surface",
@@ -13801,7 +13801,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -13899,7 +13899,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -13997,7 +13997,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -14095,7 +14095,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -14193,7 +14193,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -14291,7 +14291,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
@@ -14389,7 +14389,7 @@
 				"background"
 			]
 		},
-		"primary-onSurface": {
+		"primary-on-surface": {
 			"$type": "color",
 			"$value": "rgb(255, 255, 255)",
 			"$description": "Text or icons on top of primary-surface",
