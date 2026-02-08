@@ -40,14 +40,14 @@ function buildScaleToken(
 ): DTCGToken {
 	const descriptions: Record<number, string> = {
 		100: `Lightest ${type} shade, AAA compatible with ${type}-800`,
-		200: `Very light ${type} shade`,
+		200: `Very light ${type} shade, AAA compatible with ${type}-900`,
 		300: `Light ${type} shade`,
 		400: "Borders and separators",
 		500: type === "primary" ? "Primary brand color" : "Accent brand color",
 		600: `Medium dark ${type} shade`,
 		700: `Dark ${type} shade`,
 		800: `Very dark ${type} shade, AAA compatible with ${type}-100`,
-		900: `Darkest ${type} shade`,
+		900: `Darkest ${type} shade, AAA compatible with ${type}-200`,
 	};
 
 	const token: DTCGToken = {
@@ -60,9 +60,15 @@ function buildScaleToken(
 	if (step.step === 100) {
 		token.$pairs = `${type}-800`;
 		token.$a11y = `Meets WCAG AAA contrast on ${type}-800`;
+	} else if (step.step === 200) {
+		token.$pairs = `${type}-900`;
+		token.$a11y = `Meets WCAG AAA contrast on ${type}-900`;
 	} else if (step.step === 800) {
 		token.$pairs = `${type}-100`;
 		token.$a11y = `Meets WCAG AA contrast on ${type}-100`;
+	} else if (step.step === 900) {
+		token.$pairs = `${type}-200`;
+		token.$a11y = `Meets WCAG AAA contrast on ${type}-200`;
 	} else if (step.step === 400) {
 		token.$a11y = "Non-text contrast only";
 	}
