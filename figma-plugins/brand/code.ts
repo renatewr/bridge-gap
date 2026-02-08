@@ -157,7 +157,7 @@ async function createBrandCard(
 			padding + i * swatchWidth + swatchWidth / 2 - 8,
 			currentY,
 			10,
-			{ r: 0.5, g: 0.5, b: 0.5 }
+			{ r: 0, g: 0, b: 0 }
 		);
 		elements.push(label);
 	}
@@ -229,7 +229,7 @@ async function createBrandCard(
 					padding,
 					currentY + semanticSwatchHeight + 18,
 					8,
-					{ r: 0.5, g: 0.5, b: 0.5 }
+					{ r: 0, g: 0, b: 0 }
 				);
 				elements.push(surfaceDesc);
 			}
@@ -268,7 +268,7 @@ async function createBrandCard(
 					padding + semanticCardWidth + 8,
 					currentY + semanticSwatchHeight + 18,
 					8,
-					{ r: 0.5, g: 0.5, b: 0.5 }
+					{ r: 0, g: 0, b: 0 }
 				);
 				elements.push(onSurfaceDesc);
 			}
@@ -334,7 +334,7 @@ async function createBrandCard(
 			padding,
 			currentY + pairSwatchHeight + 18,
 			8,
-			{ r: 0.5, g: 0.5, b: 0.5 }
+			{ r: 0, g: 0, b: 0 }
 		);
 		elements.push(pair1Desc);
 	}
@@ -372,7 +372,7 @@ async function createBrandCard(
 			padding + pairWidth + 8,
 			currentY + pairSwatchHeight + 18,
 			8,
-			{ r: 0.5, g: 0.5, b: 0.5 }
+			{ r: 0, g: 0, b: 0 }
 		);
 		elements.push(pair2Desc);
 	}
