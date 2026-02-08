@@ -279,7 +279,7 @@ export const ThemePalette = () => {
 									class="semantic-token__swatch"
 									style="background-color: var(--primary-surface)"
 								>
-									<span class="semantic-token__overlay" style="color: var(--primary-onSurface)">AA</span>
+									<span class="semantic-token__overlay" style="color: var(--primary-on-surface)">AA</span>
 								</div>
 								<div class="semantic-token__info">
 									<span class="semantic-token__name">primary-surface</span>
@@ -289,7 +289,7 @@ export const ThemePalette = () => {
 							<div class="semantic-token">
 								<div
 									class="semantic-token__swatch"
-									style="background-color: var(--primary-onSurface)"
+									style="background-color: var(--primary-on-surface)"
 								></div>
 								<div class="semantic-token__info">
 									<span class="semantic-token__name">primary-onSurface</span>
@@ -409,6 +409,72 @@ const ScaleLegend = () => {
 };
 
 /**
+ * Renders the scale documentation showing category labels, step numbers, and swatches
+ * Inspired by the color scale documentation pattern
+ */
+const ScaleDocumentation = () => {
+	const primaryScale = ["100", "200", "300", "400", "500", "600", "700", "800", "900"];
+
+	// Category spans for grouping scale steps
+	const categories = [
+		{ label: "Backgrounds", steps: ["100", "200"] },
+		{ label: "Interactive components", steps: ["300", "400", "500"] },
+		{ label: "Solid colors", steps: ["600", "700"] },
+		{ label: "Accessible text", steps: ["800", "900"] },
+	];
+
+	return html`
+		<div class="scale-doc">
+			<h2 class="scale-doc__title">Primary Color Scale</h2>
+			<div class="scale-doc__categories">
+				${categories.map((cat) => html`
+					<div class="scale-doc__category" style="flex: ${cat.steps.length}">
+						<span class="scale-doc__category-label">${cat.label}</span>
+					</div>
+				`)}
+			</div>
+			<div class="scale-doc__brackets">
+				${categories.map((cat) => html`
+					<div class="scale-doc__bracket" style="flex: ${cat.steps.length}">
+						<div class="scale-doc__bracket-line"></div>
+					</div>
+				`)}
+			</div>
+			<div class="scale-doc__steps">
+				${primaryScale.map((step) => html`
+					<div class="scale-doc__step">${step}</div>
+				`)}
+			</div>
+			<div class="scale-doc__swatches">
+				${primaryScale.map((step) => html`
+					<div class="scale-doc__swatch" style="background-color: var(--primary-${step})"></div>
+				`)}
+			</div>
+			<div class="scale-doc__semantic">
+				<div class="scale-doc__semantic-item">
+					<div class="scale-doc__semantic-swatch" style="background-color: var(--primary-surface)">
+						<span style="color: var(--primary-on-surface)">AA</span>
+					</div>
+					<span class="scale-doc__semantic-label">surface / onSurface</span>
+				</div>
+				<div class="scale-doc__semantic-item">
+					<div class="scale-doc__semantic-swatch" style="background-color: var(--primary-100)">
+						<span style="color: var(--primary-800)">AAA</span>
+					</div>
+					<span class="scale-doc__semantic-label">100 / 800 pairing</span>
+				</div>
+				<div class="scale-doc__semantic-item">
+					<div class="scale-doc__semantic-swatch" style="background-color: var(--primary-200)">
+						<span style="color: var(--primary-900)">AAA</span>
+					</div>
+					<span class="scale-doc__semantic-label">200 / 900 pairing</span>
+				</div>
+			</div>
+		</div>
+	`;
+};
+
+/**
  * Renders a grid of all brand palettes
  */
 export const AllBrands = ({ filter = "", limit = 0 }: AllBrandsProps) => {
@@ -436,6 +502,7 @@ export const AllBrands = ({ filter = "", limit = 0 }: AllBrandsProps) => {
 					${filter ? html` matching "${filter}"` : nothing}
 				</p>
 			</div>
+			${ScaleDocumentation()}
 			${ScaleLegend()}
 			<div class="brand-palette__grid">
 				${brandNames.map((brandName) =>
