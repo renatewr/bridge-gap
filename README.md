@@ -23,13 +23,27 @@ This project includes a complete brand theming system with 211 brands.
 
 ### Generate Brand Tokens
 
-Generate design tokens from primary colors:
+Generate design tokens from primary colors. Run these scripts in order:
 
 ```bash
-npm run generate-tokens    # Generate JSON tokens in /brands
-npm run generate-css       # Generate CSS files in /css
-npm run generate-brand-list # Update Storybook brand list
+# 1. Generate JSON tokens from primary colors
+npm run generate-tokens
+
+# 2. Generate CSS files from tokens
+npm run generate-css
+
+# 3. Update Storybook brand list
+npm run generate-brand-list
+
+# 4. Generate combined brands.json for distribution
+npm run generate-brands-json
 ```
+
+**Workflow:**
+1. `generate-tokens` - Reads `primary-colors/primary-colors.json` and generates individual brand token files in `/brands/*.json`
+2. `generate-css` - Converts brand tokens to CSS custom properties in `/css/*.css`
+3. `generate-brand-list` - Updates `.storybook/brands.ts` with the list of available brands for the theme switcher
+4. `generate-brands-json` - Creates a combined `dist/brands.json` with all brands and resolved token values
 
 ### Theme Switcher in Storybook
 
