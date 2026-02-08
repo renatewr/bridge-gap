@@ -201,11 +201,10 @@ async function createBrandCard(
 				if (onSurfaceColor) {
 					const aaLabel = await createTextLabel(
 						"AA",
-						padding + semanticCardWidth / 2 - 8,
-						currentY + semanticSwatchHeight / 2 - 6,
+						padding + semanticCardWidth / 2 - 14,
+						currentY + semanticSwatchHeight / 2 - 10,
 						20,
-						onSurfaceColor,
-						"Bold"
+						onSurfaceColor
 					);
 					elements.push(aaLabel);
 				}
@@ -309,11 +308,10 @@ async function createBrandCard(
 
 		const pair1AaaLabel = await createTextLabel(
 			"AAA",
-			padding + pairWidth / 2 - 12,
-			currentY + pairSwatchHeight / 2 - 6,
+			padding + pairWidth / 2 - 20,
+			currentY + pairSwatchHeight / 2 - 10,
 			20,
-			color800,
-			"Bold"
+			color800
 		);
 		elements.push(pair1AaaLabel);
 
@@ -347,11 +345,10 @@ async function createBrandCard(
 
 		const pair2AaaLabel = await createTextLabel(
 			"AAA",
-			padding + pairWidth + 8 + pairWidth / 2 - 12,
-			currentY + pairSwatchHeight / 2 - 6,
+			padding + pairWidth + 8 + pairWidth / 2 - 20,
+			currentY + pairSwatchHeight / 2 - 10,
 			20,
-			color900,
-			"Bold"
+			color900
 		);
 		elements.push(pair2AaaLabel);
 

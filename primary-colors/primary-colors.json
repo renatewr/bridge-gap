@@ -15,17 +15,9 @@
     "primary": "#292827",
     "accentOne": "#ffffff"
   },
-  "www.amagerliv.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
   "www.amta.no": {
     "primary": "#DD080F",
     "accentOne": "#16254c"
-  },
-  "www.amtsavisen.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
   },
   "www.an.no": {
     "primary": "#0090BB",
@@ -59,14 +51,6 @@
     "primary": "#0e67b1",
     "accentOne": "#D0E4F1"
   },
-  "www.avisendanmark.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
-  "www.avisnavn.dk": {
-    "primary": "#333333",
-    "accentOne": "#FCDDAF"
-  },
   "www.avisnavn.no": {
     "primary": "#406619",
     "accentOne": "#FCDDAF"
@@ -74,18 +58,6 @@
   "www.ba.no": {
     "primary": "#DB0000",
     "accentOne": "#450A1C"
-  },
-  "www.berlingske.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
-  "www.billund-ugeavis.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
-  "www.bjerringbro-avis.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
   },
   "www.blv.no": {
     "primary": "#E71E24",
@@ -99,14 +71,6 @@
     "primary": "#CC9933",
     "accentOne": "#CC9933"
   },
-  "www.braedstrup-avis.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
-  "www.bt.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
   "www.budstikka.no": {
     "primary": "#003178",
     "accentOne": "#0A1938"
@@ -119,17 +83,9 @@
     "primary": "#124887",
     "accentOne": "#D9E9F9"
   },
-  "www.dagbladet-holstebro-struer.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
   "www.dalane-tidende.no": {
     "primary": "#226a8a",
     "accentOne": "#216A8A"
-  },
-  "www.dbrs.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
   },
   "www.drangedalsposten.no": {
     "primary": "#13584A",
@@ -143,33 +99,17 @@
     "primary": "#EA1D25",
     "accentOne": "#D3F9B5"
   },
-  "www.elbobladet.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
   "www.enebakkavis.no": {
     "primary": "#008837",
     "accentOne": "#B8DEF4"
-  },
-  "www.erhvervplus.dk": {
-    "primary": "#001f3f",
-    "accentOne": "#ffffff"
   },
   "www.eub.no": {
     "primary": "#006699",
     "accentOne": "#006699"
   },
-  "www.euroinvestor.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
   "www.f-b.no": {
     "primary": "#2D77A2",
     "accentOne": "#FFBE28"
-  },
-  "www.faa.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
   },
   "www.fanaposten.no": {
     "primary": "#E31717",
@@ -199,18 +139,6 @@
     "primary": "#ED1C24",
     "accentOne": "#2F4D92"
   },
-  "www.folkebladetlemvig.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
-  "www.frdb.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
-  "www.frederiksbergliv.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
   "www.freestylefolkeblad.no": {
     "primary": "#292827",
     "accentOne": "#ffffff"
@@ -222,10 +150,6 @@
   "www.frostingen.no": {
     "primary": "#007681",
     "accentOne": "#164B4E"
-  },
-  "www.fyens.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
   },
   "www.gbnett.no": {
     "primary": "#bb141a",
@@ -271,29 +195,9 @@
     "primary": "#2170AD",
     "accentOne": "#2170AD"
   },
-  "www.hedensted-avis.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
   "www.helg.no": {
     "primary": "#00529C",
     "accentOne": "#B8DBFB"
-  },
-  "www.helsingordagblad.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
-  "www.holstebroonsdag.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
-  "www.horsensposten.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
-  "www.hsfo.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
   },
   "www.ifinnmark.no": {
     "primary": "#D90000",
@@ -331,25 +235,9 @@
     "primary": "#005f9e",
     "accentOne": "#5C5C5C"
   },
-  "www.jfmplay.dk": {
-    "primary": "#000000",
-    "accentOne": "#ffffff"
-  },
-  "www.jv.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
   "www.karmoynytt.no": {
     "primary": "#A60303",
     "accentOne": "#A6A5A4"
-  },
-  "www.kertemindeugeavis.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
-  "www.kobenhavnliv.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
   },
   "www.kp.no": {
     "primary": "#0075BF",
@@ -387,41 +275,13 @@
     "primary": "#00446a",
     "accentOne": "#00446a"
   },
-  "www.lokalavisen-lemvig.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
-  "www.lokalavisenassens.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
-  "www.lokalavisennyborg.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
   "www.lyngdalsavis.no": {
     "primary": "#fda947",
     "accentOne": "#fda947"
   },
-  "www.lystrupliv.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
-  "www.mariageravis.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
-  "www.melfarposten.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
   "www.merakerposten.no": {
     "primary": "#006B95",
     "accentOne": "#006B95"
-  },
-  "www.midtfynsposten.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
   },
   "www.minmenuett.no": {
     "primary": "#292827",
@@ -491,10 +351,6 @@
     "primary": "#345C77",
     "accentOne": "#345C77"
   },
-  "www.nsnet.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
   "www.nt24.no": {
     "primary": "#000",
     "accentOne": "#ffffff"
@@ -510,10 +366,6 @@
   "www.oblad.no": {
     "primary": "#006cb8",
     "accentOne": "#16254c"
-  },
-  "www.odderavis.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
   },
   "www.oksnesavisa.no": {
     "primary": "#005190",
@@ -559,10 +411,6 @@
     "primary": "#152a47",
     "accentOne": "#152a47"
   },
-  "www.randersonsdag.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
   "www.rastavanger.no": {
     "primary": "#000000",
     "accentOne": "#96C9A5"
@@ -590,10 +438,6 @@
   "www.ringsaker-blad.no": {
     "primary": "#eb212e",
     "accentOne": "#B7DDAD"
-  },
-  "www.risskovliv.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
   },
   "www.rumbarapporten.no": {
     "primary": "#000",
@@ -631,10 +475,6 @@
     "primary": "#083330",
     "accentOne": "#083330"
   },
-  "www.skanderborgliv.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
   "www.skoleavisa.no": {
     "primary": "#E20000",
     "accentOne": "#DDF5F6"
@@ -666,10 +506,6 @@
   "www.steinkjer-avisa.no": {
     "primary": "#c9252c",
     "accentOne": "#615E5C"
-  },
-  "www.stiften.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
   },
   "www.strandbuen.no": {
     "primary": "#2b4679",
@@ -731,86 +567,6 @@
     "primary": "#006699",
     "accentOne": "#B4DEF4"
   },
-  "www.ugeavisen-aabenraa.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
-  "www.ugeavisen-esbjerg.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
-  "www.ugeavisen-haderslev.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
-  "www.ugeavisen-kolding.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
-  "www.ugeavisen-ribe.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
-  "www.ugeavisen-soenderborg.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
-  "www.ugeavisen-toender.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
-  "www.ugeavisen-varde.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
-  "www.ugeavisen-vejen.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
-  "www.ugeavisen.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
-  "www.ugeavisenfaaborg.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
-  "www.ugeavisennordfyn.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
-  "www.ugeavisenodense.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
-  "www.ugeavisenoeboen.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
-  "www.ugeavisenringkoebing.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
-  "www.ugeavisenstruer.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
-  "www.ugeavisensvendborg.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
-  "www.ugeavisenvejle.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
-  "www.ugepostenskjern.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
-  "www.vafo.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
   "www.varingen.no": {
     "primary": "#bb2035",
     "accentOne": "#006627"
@@ -823,14 +579,6 @@
     "primary": "#264358",
     "accentOne": "#ffffff"
   },
-  "www.viborg-folkeblad.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
-  "www.viborgnyt.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
-  },
   "www.vise.no": {
     "primary": "#292827",
     "accentOne": "#ffffff"
@@ -838,9 +586,5 @@
   "www.vp.no": {
     "primary": "#973c39",
     "accentOne": "#FDE0C4"
-  },
-  "www.weekendavisen.dk": {
-    "primary": "#292827",
-    "accentOne": "#ffffff"
   }
 }

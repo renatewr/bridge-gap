@@ -6,14 +6,14 @@
   --white: rgb(255, 255, 255); /** Pure white */
   --black: rgb(0, 0, 0); /** Pure black */
   --primary-100: rgb(198, 240, 255); /** Lightest primary shade, AAA compatible with primary-800 */
-  --primary-200: rgb(154, 213, 253); /** Very light primary shade */
+  --primary-200: rgb(154, 213, 253); /** Very light primary shade, AAA compatible with primary-900 */
   --primary-300: rgb(105, 187, 236); /** Light primary shade */
   --primary-400: rgb(65, 153, 200); /** Borders and separators */
   --primary-500: rgb(0, 120, 165); /** Primary brand color */
   --primary-600: rgb(0, 94, 137); /** Medium dark primary shade */
   --primary-700: rgb(0, 69, 110); /** Dark primary shade */
   --primary-800: rgb(0, 49, 80); /** Very dark primary shade, AAA compatible with primary-100 */
-  --primary-900: rgb(0, 30, 51); /** Darkest primary shade */
+  --primary-900: rgb(0, 30, 51); /** Darkest primary shade, AAA compatible with primary-200 */
   --primary-gradient: linear-gradient(180deg, rgb(198, 240, 255) 0%, rgba(198, 240, 255, 0) 30%); /** Background gradient */
   --primary-surface: var(--primary-500); /** Brand color applied to surfaces */
   --primary-on-surface: var(--white); /** Text or icons on top of primary-surface */

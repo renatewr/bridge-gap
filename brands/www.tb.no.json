@@ -28,7 +28,9 @@
 	"primary-200": {
 		"$type": "color",
 		"$value": "rgb(161, 190, 230)",
-		"$description": "Very light primary shade"
+		"$description": "Very light primary shade, AAA compatible with primary-900",
+		"$pairs": "primary-900",
+		"$a11y": "Meets WCAG AAA contrast on primary-900"
 	},
 	"primary-300": {
 		"$type": "color",
@@ -66,7 +68,9 @@
 	"primary-900": {
 		"$type": "color",
 		"$value": "rgb(0, 23, 44)",
-		"$description": "Darkest primary shade"
+		"$description": "Darkest primary shade, AAA compatible with primary-200",
+		"$pairs": "primary-200",
+		"$a11y": "Meets WCAG AAA contrast on primary-200"
 	},
 	"primary-surface": {
 		"$type": "color",
