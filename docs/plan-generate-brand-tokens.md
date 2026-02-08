@@ -1,5 +1,8 @@
 # Plan: Generate Brand Color Scales from Primary Colors
 
+#### Original request
+User wants to read primary-colors.json and create individual JSON files for each brand key in a "brands" folder. For each primary color, generate a scale from 100-900 where primary-500 is the base color. Accessibility checks required: primary-900 must have 5:1 contrast ratio against primary-200 and primary-100.
+
 ## Context
 
 The project has 400+ brand primary colors in `primary-colors/primary-colors.json`. Each brand needs a complete color scale (100-900) generated programmatically, with accessibility checks ensuring proper contrast ratios. The output must follow the DTCG token structure shown in `tokens/brands.json`.
