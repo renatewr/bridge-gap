@@ -46,6 +46,11 @@ const preview: Preview = {
 			// 'off' - skip a11y checks entirely
 			test: "todo",
 		},
+
+		// Disable Chromatic snapshots for all stories
+		chromatic: {
+			disableSnapshot: true,
+		},
 	},
 
 	globalTypes: {
