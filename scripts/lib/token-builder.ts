@@ -4,7 +4,6 @@ import {
 	ensureContrastRequirement,
 	type ContrastResult,
 } from "./contrast-adjuster.ts";
-import { sanitizeDomainName } from "./file-utils.ts";
 
 interface DTCGToken {
 	$type: string;
@@ -21,7 +20,7 @@ interface BrandColors {
 }
 
 interface BuildResult {
-	tokens: Record<string, Record<string, DTCGToken>>;
+	tokens: Record<string, DTCGToken>;
 	adjustments: Omit<ContrastResult, "scale">;
 }
 
@@ -75,10 +74,9 @@ function buildScaleToken(
  * Generates DTCG-compliant brand tokens from primary color.
  */
 export function generateBrandTokens(
-	domain: string,
+	_domain: string,
 	colors: BrandColors,
 ): BuildResult {
-	const brandKey = sanitizeDomainName(domain);
 
 	// Generate primary scale
 	const primaryRawScale = generateColorScale(colors.primary);
@@ -139,7 +137,7 @@ export function generateBrandTokens(
 	};
 
 	return {
-		tokens: { [brandKey]: tokens },
+		tokens,
 		adjustments: primaryAdjustments,
 	};
 }

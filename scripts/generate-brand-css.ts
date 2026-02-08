@@ -1,6 +1,10 @@
 import StyleDictionary from "style-dictionary";
+import { register } from "@tokens-studio/sd-transforms";
 import fs from "node:fs/promises";
 import path from "node:path";
+
+// Register tokens-studio transforms
+register(StyleDictionary);
 
 const BRANDS_DIR = path.resolve(import.meta.dirname, "../brands");
 const OUTPUT_DIR = path.resolve(import.meta.dirname, "../css");
@@ -24,25 +28,13 @@ async function main() {
 	for (const file of brandFiles) {
 		const brandName = file.replace(".json", "");
 
-		// Configure Style Dictionary for this brand with custom transform via hooks
+		// Configure Style Dictionary for this brand
 		const sd = new StyleDictionary({
 			source: [path.join(BRANDS_DIR, file)],
-			hooks: {
-				transforms: {
-					"name/strip-brand": {
-						type: "name",
-						transform: (token) => {
-							// Token path is like ["www-rha-no", "primary-500"]
-							// We want just "primary-500"
-							const pathWithoutBrand = token.path.slice(1);
-							return pathWithoutBrand.join("-");
-						},
-					},
-				},
-			},
+			preprocessors: ["tokens-studio"],
 			platforms: {
 				css: {
-					transforms: ["attribute/cti", "name/strip-brand"],
+					transforms: ["attribute/cti", "name/kebab"],
 					buildPath: `${OUTPUT_DIR}/`,
 					files: [
 						{

@@ -3,10 +3,8 @@ import { register } from "@tokens-studio/sd-transforms";
 import fs from "node:fs/promises";
 import path from "node:path";
 
-// Register tokens-studio transforms with excludeParentKeys to flatten nested brand structure
-register(StyleDictionary, {
-	excludeParentKeys: true,
-});
+// Register tokens-studio transforms
+register(StyleDictionary);
 
 const BRANDS_DIR = path.resolve(import.meta.dirname, "../brands");
 const OUTPUT_PATH = path.resolve(import.meta.dirname, "../dist/brands.json");
