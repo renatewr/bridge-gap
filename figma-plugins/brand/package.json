@@ -1,0 +1,15 @@
+{
+	"name": "brand-palette-plugin",
+	"version": "1.0.0",
+	"description": "Figma plugin to generate brand palette visual documentation",
+	"scripts": {
+		"build": "node build.js && tsc -p tsconfig.json",
+		"build:ui": "node build.js",
+		"build:code": "tsc -p tsconfig.json",
+		"watch": "tsc -p tsconfig.json --watch"
+	},
+	"devDependencies": {
+		"@figma/plugin-typings": "^1.100.0",
+		"typescript": "^5.0.0"
+	}
+}
