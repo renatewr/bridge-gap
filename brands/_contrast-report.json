@@ -1,4 +1,95 @@
 {
   "adjusted": [],
-  "failed": []
+  "failed": [],
+  "onSurfaceIssues": [],
+  "textColorMismatches": [
+    {
+      "domain": "www.an.no",
+      "primaryColor": "#0090BB",
+      "originalValue": "white",
+      "calculatedValue": "black",
+      "contrastWithOriginal": 3.6797723402170543,
+      "contrastWithCalculated": 5.706874789640192
+    },
+    {
+      "domain": "www.eikerbladet.no",
+      "primaryColor": "#EA1D25",
+      "originalValue": "white",
+      "calculatedValue": "black",
+      "contrastWithOriginal": 4.467186655332816,
+      "contrastWithCalculated": 4.700945275015702
+    },
+    {
+      "domain": "www.finnmarkdagblad.no",
+      "primaryColor": "#ED1C24",
+      "originalValue": "white",
+      "calculatedValue": "black",
+      "contrastWithOriginal": 4.381863534035042,
+      "contrastWithCalculated": 4.792481517712199
+    },
+    {
+      "domain": "www.firdaposten.no",
+      "primaryColor": "#ED1C24",
+      "originalValue": "white",
+      "calculatedValue": "black",
+      "contrastWithOriginal": 4.381863534035042,
+      "contrastWithCalculated": 4.792481517712199
+    },
+    {
+      "domain": "www.jarlsbergavis.no",
+      "primaryColor": "#EC2127",
+      "originalValue": "white",
+      "calculatedValue": "black",
+      "contrastWithOriginal": 4.362808972638242,
+      "contrastWithCalculated": 4.8134126732807765
+    },
+    {
+      "domain": "www.rablad.no",
+      "primaryColor": "#f20017",
+      "originalValue": "white",
+      "calculatedValue": "black",
+      "contrastWithOriginal": 4.386128457135557,
+      "contrastWithCalculated": 4.7878214706266125
+    },
+    {
+      "domain": "www.rha.no",
+      "primaryColor": "#0096D7",
+      "originalValue": "white",
+      "calculatedValue": "black",
+      "contrastWithOriginal": 3.3103198496511608,
+      "contrastWithCalculated": 6.34379786660584
+    },
+    {
+      "domain": "www.ringsaker-blad.no",
+      "primaryColor": "#eb212e",
+      "originalValue": "white",
+      "calculatedValue": "black",
+      "contrastWithOriginal": 4.384657689157218,
+      "contrastWithCalculated": 4.789427473877999
+    },
+    {
+      "domain": "www.stangeavisa.no",
+      "primaryColor": "#ed2026",
+      "originalValue": "white",
+      "calculatedValue": "black",
+      "contrastWithOriginal": 4.342882709987674,
+      "contrastWithCalculated": 4.835497848400239
+    },
+    {
+      "domain": "www.sva.no",
+      "primaryColor": "#0082B9",
+      "originalValue": "white",
+      "calculatedValue": "black",
+      "contrastWithOriginal": 4.291311193394216,
+      "contrastWithCalculated": 4.893609214900595
+    },
+    {
+      "domain": "www.tromsoby.no",
+      "primaryColor": "#e24535",
+      "originalValue": "white",
+      "calculatedValue": "black",
+      "contrastWithOriginal": 4.08846086486409,
+      "contrastWithCalculated": 5.1364072432421555
+    }
+  ]
 }

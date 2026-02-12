@@ -94,6 +94,15 @@
       font-size: 11px;
     }
 
+    .warning-badge {
+      background: #ff9800;
+      color: white;
+      font-size: 10px;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-weight: 600;
+    }
+
     .button-group {
       display: flex;
       gap: 8px;
@@ -173,6 +182,13 @@
   <script>
     // Embed brands data - this will be replaced during build
     const BRANDS_DATA = __BRANDS_JSON__;
+    const CONTRAST_ISSUES = __CONTRAST_ISSUES_JSON__;
+
+    // Create a set of brand names with contrast issues for quick lookup
+    const contrastIssueMap = new Map();
+    CONTRAST_ISSUES.forEach(issue => {
+      contrastIssueMap.set(issue.domain, issue);
+    });
 
     let selectedBrand = null;
     let filteredBrands = [];
@@ -206,6 +222,7 @@
 
       filteredBrands.forEach(brandName => {
         const tokens = BRANDS_DATA[brandName];
+        const hasIssue = contrastIssueMap.has(brandName);
         const item = document.createElement('div');
         item.className = 'brand-item' + (selectedBrand === brandName ? ' selected' : '');
 
@@ -215,11 +232,14 @@
           return token ? token.$value : '#ccc';
         });
 
+        const warningBadge = hasIssue ? '<span class="warning-badge">⚠️</span>' : '';
+
         item.innerHTML = `
           <div class="brand-preview">
             ${previewColors.map(color => `<div class="brand-preview-swatch" style="background: ${color}"></div>`).join('')}
           </div>
           <span class="brand-name">${brandName}</span>
+          ${warningBadge}
         `;
 
         item.onclick = () => selectBrand(brandName);
@@ -260,11 +280,14 @@
     // Generate button
     document.getElementById('generate').onclick = () => {
       if (selectedBrand && BRANDS_DATA[selectedBrand]) {
+        const contrastIssue = contrastIssueMap.get(selectedBrand);
         parent.postMessage({
           pluginMessage: {
             type: 'generate',
             brandName: selectedBrand,
-            tokens: BRANDS_DATA[selectedBrand]
+            tokens: BRANDS_DATA[selectedBrand],
+            hasContrastIssue: !!contrastIssue,
+            contrastIssue: contrastIssue
           }
         }, '*');
       }
@@ -280,7 +303,8 @@
       parent.postMessage({
         pluginMessage: {
           type: 'generate-all',
-          brands: brandsToGenerate
+          brands: brandsToGenerate,
+          contrastIssues: CONTRAST_ISSUES
         }
       }, '*');
     };

@@ -1,443 +1,1057 @@
 {
   "www.aasanetidende.no": {
-    "primary": "#d60f40"
+    "primary": "#d60f40",
+    "primary-text": "#ffffff",
+    "accentOne": "#d60f40"
   },
   "www.aasavis.no": {
-    "primary": "#1F7825"
+    "primary": "#1F7825",
+    "primary-text": "#ffffff",
+    "accentOne": "#D20000"
   },
   "www.akersposten.no": {
-    "primary": "#24397a"
+    "primary": "#24397a",
+    "primary-text": "#ffffff",
+    "accentOne": "#24397A"
   },
   "www.alt.no": {
-    "primary": "#292827"
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
+  },
+  "www.amagerliv.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
   },
   "www.amta.no": {
-    "primary": "#DD080F"
+    "primary": "#DD080F",
+    "primary-text": "#ffffff",
+    "accentOne": "#16254c"
+  },
+  "www.amtsavisen.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
   },
   "www.an.no": {
-    "primary": "#0090BB"
+    "primary": "#0090BB",
+    "primary-text": "#ffffff",
+    "accentOne": "#66C3DF"
   },
   "www.ao.no": {
-    "primary": "#b71918"
+    "primary": "#b71918",
+    "primary-text": "#ffffff",
+    "accentOne": "#FCDDAF"
   },
   "www.auraavis.no": {
-    "primary": "#2F2754"
+    "primary": "#2F2754",
+    "primary-text": "#ffffff",
+    "accentOne": "#C2D0D6"
   },
   "www.austagderblad.no": {
-    "primary": "#2196C6"
+    "primary": "#2196C6",
+    "primary-text": "#292827",
+    "accentOne": "#C41E3A"
   },
   "www.avisa-hordaland.no": {
-    "primary": "#5c8aa7"
+    "primary": "#5c8aa7",
+    "primary-text": "#292827",
+    "accentOne": "#FCDDAF"
   },
   "www.avisa-valdres.no": {
-    "primary": "#890000"
+    "primary": "#890000",
+    "primary-text": "#ffffff",
+    "accentOne": "#007193"
   },
   "www.avisagaula.no": {
-    "primary": "#004C7E"
+    "primary": "#004C7E",
+    "primary-text": "#ffffff",
+    "accentOne": "#00314D"
   },
   "www.avisenagder.no": {
-    "primary": "#0e67b1"
+    "primary": "#0e67b1",
+    "primary-text": "#ffffff",
+    "accentOne": "#D0E4F1"
+  },
+  "www.avisendanmark.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
+  },
+  "www.avisnavn.dk": {
+    "primary": "#333333",
+    "primary-text": "#ffffff",
+    "accentOne": "#FCDDAF"
   },
   "www.avisnavn.no": {
-    "primary": "#406619"
+    "primary": "#406619",
+    "primary-text": "#ffffff",
+    "accentOne": "#FCDDAF"
   },
   "www.ba.no": {
-    "primary": "#DB0000"
+    "primary": "#DB0000",
+    "primary-text": "#ffffff",
+    "accentOne": "#450A1C"
+  },
+  "www.berlingske.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
+  },
+  "www.billund-ugeavis.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
+  },
+  "www.bjerringbro-avis.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
   },
   "www.blv.no": {
-    "primary": "#E71E24"
+    "primary": "#E71E24",
+    "primary-text": "#ffffff",
+    "accentOne": "#E71E24"
   },
   "www.bodonu.no": {
-    "primary": "#DD1C1A"
+    "primary": "#DD1C1A",
+    "primary-text": "#ffffff",
+    "accentOne": "#DD1C1A"
   },
   "www.bondebladet.no": {
-    "primary": "#CC9933"
+    "primary": "#CC9933",
+    "primary-text": "#292827",
+    "accentOne": "#CC9933"
+  },
+  "www.braedstrup-avis.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
+  },
+  "www.bt.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
   },
   "www.budstikka.no": {
-    "primary": "#003178"
+    "primary": "#003178",
+    "primary-text": "#ffffff",
+    "accentOne": "#0A1938"
   },
   "www.bygdebladet.no": {
-    "primary": "#5ca75b"
+    "primary": "#5ca75b",
+    "primary-text": "#292827",
+    "accentOne": "#4D772D"
   },
   "www.bygdeposten.no": {
-    "primary": "#124887"
+    "primary": "#124887",
+    "primary-text": "#ffffff",
+    "accentOne": "#D9E9F9"
+  },
+  "www.dagbladet-holstebro-struer.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
   },
   "www.dalane-tidende.no": {
-    "primary": "#226a8a"
+    "primary": "#226a8a",
+    "primary-text": "#ffffff",
+    "accentOne": "#216A8A"
+  },
+  "www.dbrs.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
   },
   "www.drangedalsposten.no": {
-    "primary": "#13584A"
+    "primary": "#13584A",
+    "primary-text": "#ffffff",
+    "accentOne": "#13584A"
   },
   "www.dt.no": {
-    "primary": "#162850"
+    "primary": "#162850",
+    "primary-text": "#ffffff",
+    "accentOne": "#162850"
   },
   "www.eikerbladet.no": {
-    "primary": "#EA1D25"
+    "primary": "#EA1D25",
+    "primary-text": "#ffffff",
+    "accentOne": "#D3F9B5"
+  },
+  "www.elbobladet.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
   },
   "www.enebakkavis.no": {
-    "primary": "#008837"
+    "primary": "#008837",
+    "primary-text": "#ffffff",
+    "accentOne": "#B8DEF4"
+  },
+  "www.erhvervplus.dk": {
+    "primary": "#001f3f",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
   },
   "www.eub.no": {
-    "primary": "#006699"
+    "primary": "#006699",
+    "primary-text": "#ffffff",
+    "accentOne": "#006699"
+  },
+  "www.euroinvestor.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
   },
   "www.f-b.no": {
-    "primary": "#2D77A2"
+    "primary": "#2D77A2",
+    "primary-text": "#ffffff",
+    "accentOne": "#FFBE28"
+  },
+  "www.faa.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
   },
   "www.fanaposten.no": {
-    "primary": "#E31717"
+    "primary": "#E31717",
+    "primary-text": "#ffffff",
+    "accentOne": "#991414"
   },
   "www.finnmarkdagblad.no": {
-    "primary": "#ED1C24"
+    "primary": "#ED1C24",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
   },
   "www.finnmarkdebatten.no": {
-    "primary": "#d31820"
+    "primary": "#d31820",
+    "primary-text": "#ffffff",
+    "accentOne": "#d31820"
   },
   "www.finnmarken.no": {
-    "primary": "#DE0C08"
+    "primary": "#DE0C08",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
   },
   "www.finnmarksposten.no": {
-    "primary": "#3D59A7"
+    "primary": "#3D59A7",
+    "primary-text": "#ffffff",
+    "accentOne": "#3D59A7"
   },
   "www.firda.no": {
-    "primary": "#0075a9"
+    "primary": "#0075a9",
+    "primary-text": "#ffffff",
+    "accentOne": "#D0E4F1"
   },
   "www.firdaposten.no": {
-    "primary": "#ED1C24"
+    "primary": "#ED1C24",
+    "primary-text": "#ffffff",
+    "accentOne": "#2F4D92"
+  },
+  "www.folkebladetlemvig.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
+  },
+  "www.frdb.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
+  },
+  "www.frederiksbergliv.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
   },
   "www.freestylefolkeblad.no": {
-    "primary": "#292827"
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
   },
   "www.fremover.no": {
-    "primary": "#E40B15"
+    "primary": "#E40B15",
+    "primary-text": "#ffffff",
+    "accentOne": "#16254c"
   },
   "www.frostingen.no": {
-    "primary": "#007681"
+    "primary": "#007681",
+    "primary-text": "#ffffff",
+    "accentOne": "#164B4E"
+  },
+  "www.fyens.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
   },
   "www.gbnett.no": {
-    "primary": "#bb141a"
+    "primary": "#bb141a",
+    "primary-text": "#ffffff",
+    "accentOne": "#bb141a"
   },
   "www.gd.no": {
-    "primary": "#004877"
+    "primary": "#004877",
+    "primary-text": "#ffffff",
+    "accentOne": "#004877"
   },
   "www.gjengangeren.no": {
-    "primary": "#d60021"
+    "primary": "#d60021",
+    "primary-text": "#ffffff",
+    "accentOne": "#FC5727"
   },
   "www.glomdalen.no": {
-    "primary": "#CD000A"
+    "primary": "#CD000A",
+    "primary-text": "#ffffff",
+    "accentOne": "#feefe0"
   },
   "www.h-a.no": {
-    "primary": "#c50023"
+    "primary": "#c50023",
+    "primary-text": "#ffffff",
+    "accentOne": "#FFDEBF"
   },
   "www.h-avis.no": {
-    "primary": "#003366"
+    "primary": "#003366",
+    "primary-text": "#ffffff",
+    "accentOne": "#003366"
   },
   "www.ha-halden.no": {
-    "primary": "#DF0025"
+    "primary": "#DF0025",
+    "primary-text": "#ffffff",
+    "accentOne": "#A8DCFF"
   },
   "www.hadeland.no": {
-    "primary": "#0060A9"
+    "primary": "#0060A9",
+    "primary-text": "#ffffff",
+    "accentOne": "#0060A9"
   },
   "www.hafjell24.no": {
-    "primary": "#083330"
+    "primary": "#083330",
+    "primary-text": "#ffffff",
+    "accentOne": "#083330"
   },
   "www.hammerfestingen.no": {
-    "primary": "#c52434"
+    "primary": "#c52434",
+    "primary-text": "#ffffff",
+    "accentOne": "#008545"
   },
   "www.hardanger-folkeblad.no": {
-    "primary": "#2170AD"
+    "primary": "#2170AD",
+    "primary-text": "#ffffff",
+    "accentOne": "#2170AD"
+  },
+  "www.hedensted-avis.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
   },
   "www.helg.no": {
-    "primary": "#00529C"
+    "primary": "#00529C",
+    "primary-text": "#ffffff",
+    "accentOne": "#B8DBFB"
+  },
+  "www.helsingordagblad.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
+  },
+  "www.holstebroonsdag.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
+  },
+  "www.horsensposten.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
+  },
+  "www.hsfo.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
   },
   "www.ifinnmark.no": {
-    "primary": "#D90000"
+    "primary": "#D90000",
+    "primary-text": "#ffffff",
+    "accentOne": "#004a95"
   },
   "www.iharstad.no": {
-    "primary": "#000000"
+    "primary": "#000000",
+    "primary-text": "#ffffff",
+    "accentOne": "#B8DBFB"
   },
   "www.ilevanger.no": {
-    "primary": "#0069B4"
+    "primary": "#0069B4",
+    "primary-text": "#ffffff",
+    "accentOne": "#0069B4"
   },
   "www.inderoyningen.no": {
-    "primary": "#0076bd"
+    "primary": "#0076bd",
+    "primary-text": "#ffffff",
+    "accentOne": "#A1D8F9"
   },
   "www.indre.no": {
-    "primary": "#0C5A98"
+    "primary": "#0C5A98",
+    "primary-text": "#ffffff",
+    "accentOne": "#0C5A98"
   },
   "www.isandnessjoen.no": {
-    "primary": "#ffce00"
+    "primary": "#ffce00",
+    "primary-text": "#292827",
+    "accentOne": "#B2D8FB"
   },
   "www.iverdal.no": {
-    "primary": "#0069B4"
+    "primary": "#0069B4",
+    "primary-text": "#ffffff",
+    "accentOne": "#0069B4"
   },
   "www.jarlsbergavis.no": {
-    "primary": "#EC2127"
+    "primary": "#EC2127",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffff00"
   },
   "www.jbl.no": {
-    "primary": "#005f9e"
+    "primary": "#005f9e",
+    "primary-text": "#ffffff",
+    "accentOne": "#5C5C5C"
+  },
+  "www.jfmplay.dk": {
+    "primary": "#000000",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
+  },
+  "www.jv.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
   },
   "www.karmoynytt.no": {
-    "primary": "#A60303"
+    "primary": "#A60303",
+    "primary-text": "#ffffff",
+    "accentOne": "#A6A5A4"
+  },
+  "www.kertemindeugeavis.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
+  },
+  "www.kobenhavnliv.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
   },
   "www.kp.no": {
-    "primary": "#0075BF"
+    "primary": "#0075BF",
+    "primary-text": "#ffffff",
+    "accentOne": "#005eb8"
   },
   "www.krs.no": {
-    "primary": "#E20000"
+    "primary": "#E20000",
+    "primary-text": "#ffffff",
+    "accentOne": "#DDF5F6"
   },
   "www.kv.no": {
-    "primary": "#d3181f"
+    "primary": "#d3181f",
+    "primary-text": "#ffffff",
+    "accentOne": "#D0E4F1"
   },
   "www.kvinnheringen.no": {
-    "primary": "#074884"
+    "primary": "#074884",
+    "primary-text": "#ffffff",
+    "accentOne": "#074884"
   },
   "www.laagendalsposten.no": {
-    "primary": "#0c59a0"
+    "primary": "#0c59a0",
+    "primary-text": "#ffffff",
+    "accentOne": "#990033"
   },
   "www.lierposten.no": {
-    "primary": "#58595b"
+    "primary": "#58595b",
+    "primary-text": "#ffffff",
+    "accentOne": "#a60812"
   },
   "www.lofot-tidende.no": {
-    "primary": "#024B7B"
+    "primary": "#024B7B",
+    "primary-text": "#ffffff",
+    "accentOne": "#024B7B"
   },
   "www.lofotposten.no": {
-    "primary": "#D60021"
+    "primary": "#D60021",
+    "primary-text": "#ffffff",
+    "accentOne": "#2577A1"
   },
   "www.lokal-avisa.no": {
-    "primary": "#00446a"
+    "primary": "#00446a",
+    "primary-text": "#ffffff",
+    "accentOne": "#00446a"
+  },
+  "www.lokalavisen-lemvig.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
+  },
+  "www.lokalavisenassens.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
+  },
+  "www.lokalavisennyborg.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
   },
   "www.lyngdalsavis.no": {
-    "primary": "#fda947"
+    "primary": "#fda947",
+    "primary-text": "#292827",
+    "accentOne": "#fda947"
+  },
+  "www.lystrupliv.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
+  },
+  "www.mariageravis.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
+  },
+  "www.melfarposten.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
   },
   "www.merakerposten.no": {
-    "primary": "#006B95"
+    "primary": "#006B95",
+    "primary-text": "#ffffff",
+    "accentOne": "#006B95"
+  },
+  "www.midtfynsposten.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
   },
   "www.minmenuett.no": {
-    "primary": "#292827"
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
   },
   "www.mittjessheim.no": {
-    "primary": "#292827"
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
   },
   "www.mittlillestrom.no": {
-    "primary": "#292827"
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
   },
   "www.mittloerenskog.no": {
-    "primary": "#292827"
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
   },
   "www.moss-avis.no": {
-    "primary": "#2D77A2"
+    "primary": "#2D77A2",
+    "primary-text": "#ffffff",
+    "accentOne": "#162850"
   },
   "www.nab.no": {
-    "primary": "#084ba2"
+    "primary": "#084ba2",
+    "primary-text": "#ffffff",
+    "accentOne": "#084BA2"
   },
   "www.namdalsavisa.no": {
-    "primary": "#e10031"
+    "primary": "#e10031",
+    "primary-text": "#ffffff",
+    "accentOne": "#9fd0f5"
   },
   "www.nationen.no": {
-    "primary": "#306321"
+    "primary": "#306321",
+    "primary-text": "#ffffff",
+    "accentOne": "#C4E1ED"
   },
   "www.nettavisen.no": {
-    "primary": "#000"
+    "primary": "#000",
+    "primary-text": "#ffffff",
+    "accentOne": "#EB0037"
   },
   "www.nidaros.no": {
-    "primary": "#000"
+    "primary": "#000",
+    "primary-text": "#ffffff",
+    "accentOne": "#ad1e2d"
   },
   "www.noblad.no": {
-    "primary": "#1f6bb4"
+    "primary": "#1f6bb4",
+    "primary-text": "#ffffff",
+    "accentOne": "#16254C"
   },
   "www.nord24.no": {
-    "primary": "#264358"
+    "primary": "#264358",
+    "primary-text": "#ffffff",
+    "accentOne": "#feefe0"
   },
   "www.norddalen.no": {
-    "primary": "#00205E"
+    "primary": "#00205E",
+    "primary-text": "#ffffff",
+    "accentOne": "#00205E"
   },
   "www.nordhordland.no": {
-    "primary": "#DE0C08"
+    "primary": "#DE0C08",
+    "primary-text": "#ffffff",
+    "accentOne": "#8cc63f"
   },
   "www.nordlys.no": {
-    "primary": "#d20000"
+    "primary": "#d20000",
+    "primary-text": "#ffffff",
+    "accentOne": "#1A4973"
   },
   "www.nordnorskdebatt.no": {
-    "primary": "#d31820"
+    "primary": "#d31820",
+    "primary-text": "#ffffff",
+    "accentOne": "#d31820"
   },
   "www.norsklandbruk.no": {
-    "primary": "#345C77"
+    "primary": "#345C77",
+    "primary-text": "#ffffff",
+    "accentOne": "#345C77"
+  },
+  "www.nsnet.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
   },
   "www.nt24.no": {
-    "primary": "#000"
+    "primary": "#000",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
   },
   "www.nyetroms.no": {
-    "primary": "#333333"
+    "primary": "#333333",
+    "primary-text": "#ffffff",
+    "accentOne": "#d00000"
   },
   "www.oa.no": {
-    "primary": "#DE2029"
+    "primary": "#DE2029",
+    "primary-text": "#ffffff",
+    "accentOne": "#1E4262"
   },
   "www.oblad.no": {
-    "primary": "#006cb8"
+    "primary": "#006cb8",
+    "primary-text": "#ffffff",
+    "accentOne": "#16254c"
+  },
+  "www.odderavis.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
   },
   "www.oksnesavisa.no": {
-    "primary": "#005190"
+    "primary": "#005190",
+    "primary-text": "#ffffff",
+    "accentOne": "#005190"
   },
   "www.op.no": {
-    "primary": "#006699"
+    "primary": "#006699",
+    "primary-text": "#ffffff",
+    "accentOne": "#BADCF2"
   },
   "www.oslodebatten.no": {
-    "primary": "#d25cff"
+    "primary": "#d25cff",
+    "primary-text": "#292827",
+    "accentOne": "#d25cff"
   },
   "www.ostlendingen.no": {
-    "primary": "#C41012"
+    "primary": "#C41012",
+    "primary-text": "#ffffff",
+    "accentOne": "#feefe0"
   },
   "www.oyene.no": {
-    "primary": "#484A8F"
+    "primary": "#484A8F",
+    "primary-text": "#ffffff",
+    "accentOne": "#484A8F"
   },
   "www.pd.no": {
-    "primary": "#0069AD"
+    "primary": "#0069AD",
+    "primary-text": "#ffffff",
+    "accentOne": "#0069ad"
   },
   "www.polkaposten.no": {
-    "primary": "#213705"
+    "primary": "#213705",
+    "primary-text": "#ffffff",
+    "accentOne": "#213705"
   },
   "www.r-a.no": {
-    "primary": "#1a693a"
+    "primary": "#1a693a",
+    "primary-text": "#ffffff",
+    "accentOne": "#D0D3B0"
   },
   "www.rablad.no": {
-    "primary": "#f20017"
+    "primary": "#f20017",
+    "primary-text": "#ffffff",
+    "accentOne": "#4D772D"
   },
   "www.ranablad.no": {
-    "primary": "#d71c22"
+    "primary": "#d71c22",
+    "primary-text": "#ffffff",
+    "accentOne": "#66268C"
   },
   "www.ranano.no": {
-    "primary": "#152a47"
+    "primary": "#152a47",
+    "primary-text": "#ffffff",
+    "accentOne": "#152a47"
+  },
+  "www.randersonsdag.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
   },
   "www.rastavanger.no": {
-    "primary": "#000000"
+    "primary": "#000000",
+    "primary-text": "#ffffff",
+    "accentOne": "#96C9A5"
   },
   "www.raumnes.no": {
-    "primary": "#0078A5"
+    "primary": "#0078A5",
+    "primary-text": "#ffffff",
+    "accentOne": "#B6DEFA"
   },
   "www.rb.no": {
-    "primary": "#D72532"
+    "primary": "#D72532",
+    "primary-text": "#ffffff",
+    "accentOne": "#2e4971"
   },
   "www.retten.no": {
-    "primary": "#DE0410"
+    "primary": "#DE0410",
+    "primary-text": "#ffffff",
+    "accentOne": "#1F7825"
   },
   "www.rha.no": {
-    "primary": "#0096D7"
+    "primary": "#0096D7",
+    "primary-text": "#ffffff",
+    "accentOne": "#0a1938"
   },
   "www.ringblad.no": {
-    "primary": "#0c59a0"
+    "primary": "#0c59a0",
+    "primary-text": "#ffffff",
+    "accentOne": "#0C59A0"
   },
   "www.ringsaker-blad.no": {
-    "primary": "#eb212e"
+    "primary": "#eb212e",
+    "primary-text": "#ffffff",
+    "accentOne": "#B7DDAD"
+  },
+  "www.risskovliv.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
   },
   "www.rumbarapporten.no": {
-    "primary": "#000"
+    "primary": "#000",
+    "primary-text": "#ffffff",
+    "accentOne": "#EB0037"
   },
   "www.sa.no": {
-    "primary": "#E60004"
+    "primary": "#E60004",
+    "primary-text": "#ffffff",
+    "accentOne": "#0080e0"
   },
   "www.sageneavis.no": {
-    "primary": "#07a94e"
+    "primary": "#07a94e",
+    "primary-text": "#292827",
+    "accentOne": "#07A94E"
   },
   "www.salsaposten.no": {
-    "primary": "#333"
+    "primary": "#333",
+    "primary-text": "#ffffff",
+    "accentOne": "#00446a"
   },
   "www.sandeavis.no": {
-    "primary": "#292827"
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#C8EDAF"
   },
   "www.sandnesposten.no": {
-    "primary": "#117ABB"
+    "primary": "#117ABB",
+    "primary-text": "#ffffff",
+    "accentOne": "#083A59"
   },
   "www.sb.no": {
-    "primary": "#004e96"
+    "primary": "#004e96",
+    "primary-text": "#ffffff",
+    "accentOne": "#004E96"
   },
   "www.senja247.no": {
-    "primary": "#c90c0f"
+    "primary": "#c90c0f",
+    "primary-text": "#ffffff",
+    "accentOne": "#e24535"
   },
   "www.sjusjoen24.no": {
-    "primary": "#083330"
+    "primary": "#083330",
+    "primary-text": "#ffffff",
+    "accentOne": "#083330"
+  },
+  "www.skanderborgliv.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
   },
   "www.skoleavisa.no": {
-    "primary": "#E20000"
+    "primary": "#E20000",
+    "primary-text": "#ffffff",
+    "accentOne": "#DDF5F6"
   },
   "www.smaalenene.no": {
-    "primary": "#42719C"
+    "primary": "#42719C",
+    "primary-text": "#ffffff",
+    "accentOne": "#B6E99F"
   },
   "www.snasningen.no": {
-    "primary": "#af0737"
+    "primary": "#af0737",
+    "primary-text": "#ffffff",
+    "accentOne": "#0037A9"
   },
   "www.sognavis.no": {
-    "primary": "#2b98d4"
+    "primary": "#2b98d4",
+    "primary-text": "#292827",
+    "accentOne": "#B1E6FB"
   },
   "www.solabladet.no": {
-    "primary": "#2b67b9"
+    "primary": "#2b67b9",
+    "primary-text": "#ffffff",
+    "accentOne": "#2b67b9"
   },
   "www.solungavisa.no": {
-    "primary": "#d00c44"
+    "primary": "#d00c44",
+    "primary-text": "#ffffff",
+    "accentOne": "#d00c44"
   },
   "www.stangeavisa.no": {
-    "primary": "#ed2026"
+    "primary": "#ed2026",
+    "primary-text": "#ffffff",
+    "accentOne": "#94CBF3"
   },
   "www.steinkjer-avisa.no": {
-    "primary": "#c9252c"
+    "primary": "#c9252c",
+    "primary-text": "#ffffff",
+    "accentOne": "#615E5C"
+  },
+  "www.stiften.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
   },
   "www.strandbuen.no": {
-    "primary": "#2b4679"
+    "primary": "#2b4679",
+    "primary-text": "#ffffff",
+    "accentOne": "#2b4679"
   },
   "www.sva.no": {
-    "primary": "#0082B9"
+    "primary": "#0082B9",
+    "primary-text": "#ffffff",
+    "accentOne": "#5AADD1"
   },
   "www.svelviksposten.no": {
-    "primary": "#90007b"
+    "primary": "#90007b",
+    "primary-text": "#ffffff",
+    "accentOne": "#83B692"
   },
   "www.sydvesten.no": {
-    "primary": "#d33536"
+    "primary": "#d33536",
+    "primary-text": "#ffffff",
+    "accentOne": "#d33536"
   },
   "www.t-a.no": {
-    "primary": "#0071bc"
+    "primary": "#0071bc",
+    "primary-text": "#ffffff",
+    "accentOne": "#d0e4f1"
   },
   "www.ta.no": {
-    "primary": "#BD181F"
+    "primary": "#BD181F",
+    "primary-text": "#ffffff",
+    "accentOne": "#B8DBFB"
   },
   "www.tangotidende.no": {
-    "primary": "#292827"
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#162850"
   },
   "www.tb.no": {
-    "primary": "#003F68"
+    "primary": "#003F68",
+    "primary-text": "#ffffff",
+    "accentOne": "#f3c3c3"
   },
   "www.telen.no": {
-    "primary": "#323896"
+    "primary": "#323896",
+    "primary-text": "#ffffff",
+    "accentOne": "#D4D9B6"
   },
   "www.tk.no": {
-    "primary": "#006FA8"
+    "primary": "#006FA8",
+    "primary-text": "#ffffff",
+    "accentOne": "#285886"
   },
   "www.totenidag.no": {
-    "primary": "#6396b1"
+    "primary": "#6396b1",
+    "primary-text": "#292827",
+    "accentOne": "#C8EDAF"
   },
   "www.traktor.no": {
-    "primary": "#CF1936"
+    "primary": "#CF1936",
+    "primary-text": "#ffffff",
+    "accentOne": "#CF1936"
   },
   "www.tromsoby.no": {
-    "primary": "#e24535"
+    "primary": "#e24535",
+    "primary-text": "#ffffff",
+    "accentOne": "#e24535"
   },
   "www.tronderdebatt.no": {
-    "primary": "#AD1E2D"
+    "primary": "#AD1E2D",
+    "primary-text": "#ffffff",
+    "accentOne": "#AD1E2D"
   },
   "www.tvedestrandsposten.no": {
-    "primary": "#006699"
+    "primary": "#006699",
+    "primary-text": "#ffffff",
+    "accentOne": "#B4DEF4"
+  },
+  "www.ugeavisen-aabenraa.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
+  },
+  "www.ugeavisen-esbjerg.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
+  },
+  "www.ugeavisen-haderslev.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
+  },
+  "www.ugeavisen-kolding.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
+  },
+  "www.ugeavisen-ribe.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
+  },
+  "www.ugeavisen-soenderborg.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
+  },
+  "www.ugeavisen-toender.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
+  },
+  "www.ugeavisen-varde.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
+  },
+  "www.ugeavisen-vejen.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
+  },
+  "www.ugeavisen.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
+  },
+  "www.ugeavisenfaaborg.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
+  },
+  "www.ugeavisennordfyn.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
+  },
+  "www.ugeavisenodense.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
+  },
+  "www.ugeavisenoeboen.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
+  },
+  "www.ugeavisenringkoebing.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
+  },
+  "www.ugeavisenstruer.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
+  },
+  "www.ugeavisensvendborg.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
+  },
+  "www.ugeavisenvejle.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
+  },
+  "www.ugepostenskjern.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
+  },
+  "www.vafo.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
   },
   "www.varingen.no": {
-    "primary": "#bb2035"
+    "primary": "#bb2035",
+    "primary-text": "#ffffff",
+    "accentOne": "#006627"
   },
   "www.vestbyavis.no": {
-    "primary": "#444444"
+    "primary": "#444444",
+    "primary-text": "#ffffff",
+    "accentOne": "#16254c"
   },
   "www.vestviken24.no": {
-    "primary": "#264358"
+    "primary": "#264358",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
+  },
+  "www.viborg-folkeblad.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
+  },
+  "www.viborgnyt.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
   },
   "www.vise.no": {
-    "primary": "#292827"
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
   },
   "www.vp.no": {
-    "primary": "#973c39"
+    "primary": "#973c39",
+    "primary-text": "#ffffff",
+    "accentOne": "#FDE0C4"
+  },
+  "www.weekendavisen.dk": {
+    "primary": "#292827",
+    "primary-text": "#ffffff",
+    "accentOne": "#ffffff"
   }
 }

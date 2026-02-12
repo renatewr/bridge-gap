@@ -106,8 +106,8 @@ export const BrandCard = ({ brandName, tokens }: BrandCardProps) => {
 								<span class="accessible-pair__overlay" style="color: ${tokens["primary-800"]?.$value}">AAA</span>
 							</div>
 							<div class="accessible-pair__info">
-								<span class="accessible-pair__name">primary-100 / primary-800</span>
-								<span class="accessible-pair__desc">AAA contrast pairing</span>
+								<span class="accessible-pair__name">100 bg / 800 text</span>
+								<span class="accessible-pair__desc">Light background</span>
 							</div>
 						</div>
 						<div class="accessible-pair">
@@ -118,8 +118,32 @@ export const BrandCard = ({ brandName, tokens }: BrandCardProps) => {
 								<span class="accessible-pair__overlay" style="color: ${tokens["primary-900"]?.$value}">AAA</span>
 							</div>
 							<div class="accessible-pair__info">
-								<span class="accessible-pair__name">primary-200 / primary-900</span>
-								<span class="accessible-pair__desc">AAA contrast pairing</span>
+								<span class="accessible-pair__name">200 bg / 900 text</span>
+								<span class="accessible-pair__desc">Light background</span>
+							</div>
+						</div>
+						<div class="accessible-pair">
+							<div
+								class="accessible-pair__swatch"
+								style="background-color: ${tokens["primary-800"]?.$value}"
+							>
+								<span class="accessible-pair__overlay" style="color: ${tokens["primary-100"]?.$value}">AAA</span>
+							</div>
+							<div class="accessible-pair__info">
+								<span class="accessible-pair__name">800 bg / 100 text</span>
+								<span class="accessible-pair__desc">Dark background</span>
+							</div>
+						</div>
+						<div class="accessible-pair">
+							<div
+								class="accessible-pair__swatch"
+								style="background-color: ${tokens["primary-900"]?.$value}"
+							>
+								<span class="accessible-pair__overlay" style="color: ${tokens["primary-200"]?.$value}">AAA</span>
+							</div>
+							<div class="accessible-pair__info">
+								<span class="accessible-pair__name">900 bg / 200 text</span>
+								<span class="accessible-pair__desc">Dark background</span>
 							</div>
 						</div>
 					</div>
@@ -311,8 +335,8 @@ export const ThemePalette = () => {
 									<span class="accessible-pair__overlay" style="color: var(--primary-800)">AAA</span>
 								</div>
 								<div class="accessible-pair__info">
-									<span class="accessible-pair__name">primary-100 / primary-800</span>
-									<span class="accessible-pair__desc">AAA contrast pairing</span>
+									<span class="accessible-pair__name">100 bg / 800 text</span>
+									<span class="accessible-pair__desc">Light background</span>
 								</div>
 							</div>
 							<div class="accessible-pair">
@@ -323,8 +347,32 @@ export const ThemePalette = () => {
 									<span class="accessible-pair__overlay" style="color: var(--primary-900)">AAA</span>
 								</div>
 								<div class="accessible-pair__info">
-									<span class="accessible-pair__name">primary-200 / primary-900</span>
-									<span class="accessible-pair__desc">AAA contrast pairing</span>
+									<span class="accessible-pair__name">200 bg / 900 text</span>
+									<span class="accessible-pair__desc">Light background</span>
+								</div>
+							</div>
+							<div class="accessible-pair">
+								<div
+									class="accessible-pair__swatch"
+									style="background-color: var(--primary-800)"
+								>
+									<span class="accessible-pair__overlay" style="color: var(--primary-100)">AAA</span>
+								</div>
+								<div class="accessible-pair__info">
+									<span class="accessible-pair__name">800 bg / 100 text</span>
+									<span class="accessible-pair__desc">Dark background</span>
+								</div>
+							</div>
+							<div class="accessible-pair">
+								<div
+									class="accessible-pair__swatch"
+									style="background-color: var(--primary-900)"
+								>
+									<span class="accessible-pair__overlay" style="color: var(--primary-200)">AAA</span>
+								</div>
+								<div class="accessible-pair__info">
+									<span class="accessible-pair__name">900 bg / 200 text</span>
+									<span class="accessible-pair__desc">Dark background</span>
 								</div>
 							</div>
 						</div>

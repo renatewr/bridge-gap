@@ -13,15 +13,27 @@ interface TokenData {
 type BrandTokens = Record<string, TokenData>;
 type BrandsData = Record<string, BrandTokens>;
 
+interface ContrastIssue {
+	domain: string;
+	primaryColor: string;
+	originalValue: string;
+	calculatedValue: string;
+	contrastWithOriginal: number;
+	contrastWithCalculated: number;
+}
+
 interface GenerateMessage {
 	type: "generate";
 	brandName: string;
 	tokens: BrandTokens;
+	hasContrastIssue?: boolean;
+	contrastIssue?: ContrastIssue;
 }
 
 interface GenerateAllMessage {
 	type: "generate-all";
 	brands: BrandsData;
+	contrastIssues?: ContrastIssue[];
 }
 
 interface CancelMessage {
@@ -83,7 +95,8 @@ async function createBrandCard(
 	brandName: string,
 	tokens: BrandTokens,
 	startX: number,
-	startY: number
+	startY: number,
+	contrastIssue?: ContrastIssue
 ): Promise<FrameNode> {
 	const cardWidth = 320;
 	const swatchHeight = 32;
@@ -112,6 +125,31 @@ async function createBrandCard(
 	);
 	elements.push(header);
 	currentY += 30;
+
+	// Contrast warning if present
+	if (contrastIssue) {
+		// Warning badge
+		const warningBadge = figma.createRectangle();
+		warningBadge.x = padding;
+		warningBadge.y = currentY;
+		warningBadge.resize(cardWidth - padding * 2, 24);
+		warningBadge.fills = [{ type: "SOLID", color: { r: 1, g: 0.95, b: 0.8 } }];
+		warningBadge.cornerRadius = 4;
+		warningBadge.name = "contrast-warning";
+		elements.push(warningBadge);
+
+		// Warning text
+		const warningText = await createTextLabel(
+			`Contrast issue: ${contrastIssue.originalValue} (${contrastIssue.contrastWithOriginal.toFixed(2)}:1) vs ${contrastIssue.calculatedValue} (${contrastIssue.contrastWithCalculated.toFixed(2)}:1)`,
+			padding + 8,
+			currentY + 5,
+			9,
+			{ r: 0.4, g: 0.2, b: 0 }
+		);
+		elements.push(warningText);
+
+		currentY += 32;
+	}
 
 	// Primary scale heading
 	const scaleHeading = await createTextLabel(
@@ -287,7 +325,7 @@ async function createBrandCard(
 	elements.push(pairsLabel);
 	currentY += 24;
 
-	// 100/800 pair
+	// Get color tokens
 	const token100 = tokens["primary-100"];
 	const token800 = tokens["primary-800"];
 	const token200 = tokens["primary-200"];
@@ -300,10 +338,11 @@ async function createBrandCard(
 	const pairWidth = (cardWidth - padding * 2 - 8) / 2;
 	const pairSwatchHeight = 40;
 
+	// Row 1: Light backgrounds
 	if (color100 && color800) {
-		// 100/800 swatch with AAA text
+		// 100 bg / 800 text
 		const pair1Bg = createColorSwatch(color100, padding, currentY, pairWidth, pairSwatchHeight);
-		pair1Bg.name = "pair-100-800-bg";
+		pair1Bg.name = "pair-100-bg-800-text";
 		elements.push(pair1Bg);
 
 		const pair1AaaLabel = await createTextLabel(
@@ -317,7 +356,7 @@ async function createBrandCard(
 
 		// 100/800 name
 		const pair1Name = await createTextLabel(
-			"primary-100 / primary-800",
+			"100 bg / 800 text",
 			padding,
 			currentY + pairSwatchHeight + 4,
 			10,
@@ -325,22 +364,12 @@ async function createBrandCard(
 			"Bold"
 		);
 		elements.push(pair1Name);
-
-		// 100/800 description
-		const pair1Desc = await createTextLabel(
-			"AAA contrast pairing",
-			padding,
-			currentY + pairSwatchHeight + 18,
-			8,
-			{ r: 0, g: 0, b: 0 }
-		);
-		elements.push(pair1Desc);
 	}
 
 	if (color200 && color900) {
-		// 200/900 swatch with AAA text
+		// 200 bg / 900 text
 		const pair2Bg = createColorSwatch(color200, padding + pairWidth + 8, currentY, pairWidth, pairSwatchHeight);
-		pair2Bg.name = "pair-200-900-bg";
+		pair2Bg.name = "pair-200-bg-900-text";
 		elements.push(pair2Bg);
 
 		const pair2AaaLabel = await createTextLabel(
@@ -354,7 +383,7 @@ async function createBrandCard(
 
 		// 200/900 name
 		const pair2Name = await createTextLabel(
-			"primary-200 / primary-900",
+			"200 bg / 900 text",
 			padding + pairWidth + 8,
 			currentY + pairSwatchHeight + 4,
 			10,
@@ -362,24 +391,70 @@ async function createBrandCard(
 			"Bold"
 		);
 		elements.push(pair2Name);
-
-		// 200/900 description
-		const pair2Desc = await createTextLabel(
-			"AAA contrast pairing",
-			padding + pairWidth + 8,
-			currentY + pairSwatchHeight + 18,
-			8,
-			{ r: 0, g: 0, b: 0 }
-		);
-		elements.push(pair2Desc);
 	}
-	currentY += pairSwatchHeight + 40;
+	currentY += pairSwatchHeight + 22;
+
+	// Row 2: Dark backgrounds
+	if (color800 && color100) {
+		// 800 bg / 100 text
+		const pair3Bg = createColorSwatch(color800, padding, currentY, pairWidth, pairSwatchHeight);
+		pair3Bg.name = "pair-800-bg-100-text";
+		elements.push(pair3Bg);
+
+		const pair3AaaLabel = await createTextLabel(
+			"AAA",
+			padding + pairWidth / 2 - 20,
+			currentY + pairSwatchHeight / 2 - 10,
+			20,
+			color100
+		);
+		elements.push(pair3AaaLabel);
+
+		// 800/100 name
+		const pair3Name = await createTextLabel(
+			"800 bg / 100 text",
+			padding,
+			currentY + pairSwatchHeight + 4,
+			10,
+			{ r: 0.2, g: 0.2, b: 0.2 },
+			"Bold"
+		);
+		elements.push(pair3Name);
+	}
+
+	if (color900 && color200) {
+		// 900 bg / 200 text
+		const pair4Bg = createColorSwatch(color900, padding + pairWidth + 8, currentY, pairWidth, pairSwatchHeight);
+		pair4Bg.name = "pair-900-bg-200-text";
+		elements.push(pair4Bg);
+
+		const pair4AaaLabel = await createTextLabel(
+			"AAA",
+			padding + pairWidth + 8 + pairWidth / 2 - 20,
+			currentY + pairSwatchHeight / 2 - 10,
+			20,
+			color200
+		);
+		elements.push(pair4AaaLabel);
+
+		// 900/200 name
+		const pair4Name = await createTextLabel(
+			"900 bg / 200 text",
+			padding + pairWidth + 8,
+			currentY + pairSwatchHeight + 4,
+			10,
+			{ r: 0.2, g: 0.2, b: 0.2 },
+			"Bold"
+		);
+		elements.push(pair4Name);
+	}
+	currentY += pairSwatchHeight + 22;
 
 	// Gradient if available
 	const gradientToken = tokens["primary-gradient"];
 	if (gradientToken) {
 		const gradientLabel = await createTextLabel(
-			"Gradient",
+			"primary-gradient",
 			padding,
 			currentY,
 			12,
@@ -414,6 +489,19 @@ async function createBrandCard(
 			];
 			elements.push(gradientRect);
 			currentY += 48;
+
+			// Gradient description
+			if (gradientToken.$description) {
+				const gradientDesc = await createTextLabel(
+					gradientToken.$description,
+					padding,
+					currentY,
+					8,
+					{ r: 0, g: 0, b: 0 }
+				);
+				elements.push(gradientDesc);
+				currentY += 16;
+			}
 		}
 	}
 
@@ -438,14 +526,18 @@ figma.ui.onmessage = async (msg: PluginMessage) => {
 				msg.brandName,
 				msg.tokens,
 				figma.viewport.center.x - 160,
-				figma.viewport.center.y - 200
+				figma.viewport.center.y - 200,
+				msg.contrastIssue
 			);
 
 			figma.currentPage.appendChild(card);
 			figma.currentPage.selection = [card];
 			figma.viewport.scrollAndZoomIntoView([card]);
 
-			figma.notify(`Brand palette created for ${msg.brandName}!`);
+			const warningMsg = msg.hasContrastIssue
+				? " (⚠️ Contrast issue detected)"
+				: "";
+			figma.notify(`Brand palette created for ${msg.brandName}!${warningMsg}`);
 		} catch (error) {
 			figma.notify(`Error: ${error}`, { error: true });
 		}
@@ -464,9 +556,18 @@ figma.ui.onmessage = async (msg: PluginMessage) => {
 
 			const allCards: FrameNode[] = [];
 
+			// Create a map of contrast issues for quick lookup
+			const contrastIssueMap = new Map<string, ContrastIssue>();
+			if (msg.contrastIssues) {
+				for (const issue of msg.contrastIssues) {
+					contrastIssueMap.set(issue.domain, issue);
+				}
+			}
+
 			for (let i = 0; i < brandNames.length; i++) {
 				const brandName = brandNames[i];
 				const tokens = msg.brands[brandName];
+				const contrastIssue = contrastIssueMap.get(brandName);
 
 				const col = i % columns;
 				const row = Math.floor(i / columns);
@@ -474,7 +575,7 @@ figma.ui.onmessage = async (msg: PluginMessage) => {
 				const x = startX + col * (cardWidth + gap);
 				const y = startY + row * (cardHeight + gap);
 
-				const card = await createBrandCard(brandName, tokens, x, y);
+				const card = await createBrandCard(brandName, tokens, x, y, contrastIssue);
 				figma.currentPage.appendChild(card);
 				allCards.push(card);
 
@@ -487,7 +588,9 @@ figma.ui.onmessage = async (msg: PluginMessage) => {
 			figma.currentPage.selection = allCards;
 			figma.viewport.scrollAndZoomIntoView(allCards);
 
-			figma.notify(`Created ${brandNames.length} brand palettes!`);
+			const issueCount = msg.contrastIssues?.length || 0;
+			const issueMsg = issueCount > 0 ? ` (${issueCount} with contrast issues)` : "";
+			figma.notify(`Created ${brandNames.length} brand palettes!${issueMsg}`);
 		} catch (error) {
 			figma.notify(`Error: ${error}`, { error: true });
 		}

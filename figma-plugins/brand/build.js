@@ -1,8 +1,9 @@
 const fs = require("fs");
 const path = require("path");
 
-// Read the brands.json from dist folder
+// Read the brands.json from dist folder and contrast report from brands folder
 const brandsPath = path.join(__dirname, "../../dist/brands.json");
+const contrastReportPath = path.join(__dirname, "../../brands/_contrast-report.json");
 const uiTemplatePath = path.join(__dirname, "ui.template.html");
 const uiOutputPath = path.join(__dirname, "ui.html");
 
@@ -19,6 +20,17 @@ try {
 	process.exit(1);
 }
 
+// Read contrast report data
+let contrastReport;
+try {
+	const reportContent = fs.readFileSync(contrastReportPath, "utf-8");
+	contrastReport = JSON.parse(reportContent);
+	console.log(`Loaded contrast report with ${contrastReport.textColorMismatches?.length || 0} issues`);
+} catch (err) {
+	console.warn("Warning: Could not read contrast report:", err.message);
+	contrastReport = { textColorMismatches: [] };
+}
+
 // Read UI template
 let uiContent;
 try {
@@ -28,10 +40,15 @@ try {
 	process.exit(1);
 }
 
-// Replace placeholder with actual data
-const updatedUi = uiContent.replace(
+// Replace placeholders with actual data
+let updatedUi = uiContent.replace(
 	"__BRANDS_JSON__",
 	JSON.stringify(brandsData)
+);
+
+updatedUi = updatedUi.replace(
+	"__CONTRAST_ISSUES_JSON__",
+	JSON.stringify(contrastReport.textColorMismatches || [])
 );
 
 // Write output

@@ -17,11 +17,20 @@ interface DTCGToken {
 interface BrandColors {
 	primary: string;
 	accentOne: string;
+	"primary-text"?: string;
 }
 
 interface BuildResult {
 	tokens: Record<string, DTCGToken>;
 	adjustments: Omit<ContrastResult, "scale">;
+	onSurfaceContrast?: {
+		contrastWithWhite: number;
+		contrastWithBlack: number;
+		meetsMinimum: boolean;
+		selectedValue: "white" | "black";
+		originalValue?: string;
+		matchesOriginal?: boolean;
+	};
 }
 
 /**
@@ -124,14 +133,44 @@ export function generateBrandTokens(
 	// Calculate onSurface based on contrast
 	const primary500 = primaryScale.find((s) => s.step === 500)!;
 	const contrastWithWhite = chroma.contrast(primary500.color, "white");
-	const onSurfaceValue = contrastWithWhite >= 4.5 ? "white" : "black";
+	const contrastWithBlack = chroma.contrast(primary500.color, "black");
+	const calculatedValue: "white" | "black" =
+		contrastWithWhite >= 4.5 ? "white" : "black";
+
+	// Check if original design specified a primary-text value
+	const originalValue = colors["primary-text"];
+	let normalizedOriginal: "white" | "black" | undefined;
+
+	if (originalValue) {
+		const lower = originalValue.toLowerCase();
+		// Handle both named colors and hex values
+		if (lower === "white" || lower === "#ffffff" || lower === "#fff") {
+			normalizedOriginal = "white";
+		} else if (lower === "black" || lower === "#000000" || lower === "#000") {
+			normalizedOriginal = "black";
+		}
+	}
+
+	// Check if original matches calculated
+	const matchesOriginal = normalizedOriginal
+		? normalizedOriginal === calculatedValue
+		: undefined;
+
+	// Use original value if provided and valid, otherwise use calculated
+	const onSurfaceValue: "white" | "black" =
+		normalizedOriginal || calculatedValue;
+
+	// Check if primary-500 meets minimum contrast with either color
+	const meetsMinimum = Math.max(contrastWithWhite, contrastWithBlack) >= 4.5;
 
 	tokens["primary-on-surface"] = {
 		$type: "color",
 		$value: `{${onSurfaceValue}}`,
 		$description: "Text or icons on top of primary-surface",
 		$usage: ["text", "icons"],
-		$a11y: "Meets WCAG AA contrast on primary-surface",
+		$a11y: meetsMinimum
+			? "Meets WCAG AA contrast on primary-surface"
+			: "WARNING: Does not meet WCAG AA contrast on primary-surface",
 	};
 
 	// Gradient using primary-100
@@ -145,5 +184,13 @@ export function generateBrandTokens(
 	return {
 		tokens,
 		adjustments: primaryAdjustments,
+		onSurfaceContrast: {
+			contrastWithWhite,
+			contrastWithBlack,
+			meetsMinimum,
+			selectedValue: onSurfaceValue,
+			originalValue: normalizedOriginal,
+			matchesOriginal,
+		},
 	};
 }

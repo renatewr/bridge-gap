@@ -82,7 +82,7 @@
 	},
 	"primary-on-surface": {
 		"$type": "color",
-		"$value": "{black}",
+		"$value": "{white}",
 		"$description": "Text or icons on top of primary-surface",
 		"$usage": [
 			"text",
